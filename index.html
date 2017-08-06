@@ -6,13 +6,7 @@
 
 	<link rel="stylesheet" type="text/css" href="css/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/estilo.css">
-
 	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript">
-		$(document).ready(function(){
-			
-		});
-	</script>
 	
 
 
@@ -40,9 +34,9 @@
 		<div id="editor" class="aba ativa">
 			<h1>Editor</h1>
 			<div class="btn-group">
-				<button class="btn btn-success" >Executar</button>
-				<button class="btn btn-success">Limpar query</button>
-				<button class="btn btn-success">Limpar log</button>
+				<button class="btn btn-success" ><span class="glyphicon glyphicon-play" aria-hidden="true"></span> Executar</button>
+				<button class="btn btn-success"><span class="glyphicon glyphicon-font" aria-hidden="true"></span> Limpar query</button>
+				<button class="btn btn-success"><span class="glyphicon glyphicon-list" aria-hidden="true"></span> Limpar log</button>
 			</div>
 
 			<div class="form-group">
@@ -69,13 +63,13 @@
 							<div class="panel-body" style=" height: 100%;">
 								<div class="tab-content">
 									<div class="tab-result aberta" id="mensagens">
-										<div class="log-msg erro">Tabela "alunos" não existe nesse banco de dados.</div>
-										<div class="log-msg sucesso">Tabela "alunos" não existe nesse banco de dados.</div>
-										<div class="log-msg alerta">Tabela "alunos" não existe nesse banco de dados.</div>
+										<div class="log-msg erro"><span class="glyphicon glyphicon-remove-sign" aria-hidden="true"> <b>Mensagem para execuções com erros.</b></div>
+										<div class="log-msg sucesso"><span class="glyphicon glyphicon-ok-sign" aria-hidden="true"> <b>Este log é para compilações com sucesso.</b></div>
+										<div class="log-msg alerta"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"> <b>Notificação de atenção ou informações.</b></div>
 
 									</div>
                         			<div class="tab-result" id="resultado">
-                        				
+                        				Terá tabelas
                         			</div>
 
 								</div>
@@ -98,6 +92,66 @@
 		<div id="tabelas" class="aba">
 			<h1>Tabelas</h1>
 			<p>Aqui será o dicionário do sistema, para saber quais campos existem em todas as tabelas, uniões, tipos de dados, etc., para servir de consulta a qualquer momento.</p>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="well well-sm">
+						Frutas
+						<table class="table table-condensed table-bordered">
+							<tr>
+								<th>Campo</th>
+								<th>Tipo</th>
+								
+							</tr>
+							<tr>
+								<td>Código</td>
+								<td>Int <span class="label label-primary" title="Primay key - Chave primária">PK</span> <span title="Auto increment - Incremental" class="label label-primary">AI</span></td>
+							</tr>
+							<tr>
+								<td>Nome</td>
+								<td>Varchar (25)</td>
+							</tr>
+							<tr>
+								<td>Valor</td>
+								<td>Decimal (3,2)</td>
+							</tr>
+							<tr>
+								<td>Quantidade</td>
+								<td>Int</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="well well-sm">
+						Cliente
+						<table class="table table-condensed table-bordered">
+							<tr>
+								<th>Campo</th>
+								<th>Tipo</th>
+							</tr>
+							<tr>
+								<td>Nome</td>
+								<td>Varchar (50) <span class="label label-primary" title="Primay key - Chave primária">PK</span></td>
+								
+							</tr>
+							<tr>
+								<td>Telefone</td>
+								<td>Int</td>
+							</tr>
+							<tr>
+								<td>E-mail</td>
+								<td>Varchar (50) <span class="label label-primary" title="Primay key - Chave primária">I</span></td>
+								
+							</tr>
+							<tr>
+								<td>Cadastro</td>
+								<td>Date</td>
+								
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
 		</div>
 		<div id="ajuda" class="aba">
 			<h1>Ajuda</h1>
