@@ -28,6 +28,21 @@ $(".nav-tabs li a").on('click', function(){
 
 	
 	$("#"+tab_id).addClass('aberta');
+});
 
 
+
+$(".btn-group-vertical button").click(function(){
+	
+	if( $(this).attr('class') == 'btn btn-warning' ){
+		
+		$(this).removeClass('btn-warning').addClass('btn-success');
+		$(this).children().removeClass('glyphicon-unchecked').addClass('glyphicon-check');
+	
+	} else {
+		$(this).removeClass('btn-success').addClass('btn-warning');
+		$(this).children().removeClass('glyphicon-check').addClass('glyphicon-unchecked');
+	}
+
+	
 });

@@ -1,6 +1,9 @@
+/* Configuração geral */
 div{box-sizing: border-box;}
 *{font-family: "Verdana";}
 
+
+/* Partes da dash - Menu */
 .menu-container{
 	box-sizing: border-box;
 	min-width: 20%;
@@ -61,6 +64,10 @@ div{box-sizing: border-box;}
 	background-color: #004242;
 }
 
+
+
+
+/* Parte da dash - Área de trabalho */
 .work-container{
 	box-sizing: border-box;
 	min-width: 100%;
@@ -96,13 +103,17 @@ textarea{
 	resize: none;
 }
 
-.btn-success, .btn-success:focus{
+.work-container .btn-group .btn-success, .work-container .btn-group .btn-success:focus{
 	background-color: #005252;
 	border-color: #005252;
 }
+.work-container .btn-group .btn-success:hover{
+	background-color: green;
+	
+}
 
 
-
+/* Área de logs e tabela de retorno */
 .with-nav-tabs.panel-primary .nav-tabs > li > a,
 .with-nav-tabs.panel-primary .nav-tabs > li > a:hover {
     color: #fff;
@@ -124,9 +135,6 @@ textarea{
 	border-color: #428bca;
 	border-bottom-color: transparent;
 }
-
-
-
 
 .tab-content{
 	box-sizing: border-box;
@@ -159,9 +167,7 @@ textarea{
 
 
 
-
-
-
+/* Classes dos logs */
 div.log-msg{
 	height: 30px;
 	width: 100%;
@@ -189,3 +195,16 @@ div.log-msg.alerta{
 	border:1px solid blue;
 	background-color: #3b5998;
 }
+
+
+/* Ata de missões - Checklist */
+.badgebox{opacity: 0;}
+
+.badgebox + .badge{
+    text-indent: -999999px;
+	width: 27px;
+}
+
+.badgebox:focus + .badge{box-shadow: inset 0px 0px 5px;}
+
+.badgebox:checked + .badge{text-indent: 0;}
