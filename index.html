@@ -39,7 +39,57 @@
 	<div class="work-container">
 		<div id="editor" class="aba ativa">
 			<h1>Editor</h1>
-			<p>Aqui será o editor do SQL, com caixa de texto, botões para executar, limpar, terá uma tabela embaixo (como nos sgbds) que terá o retorno das consultas, terá o log do script (para informar erros, sucesso, atenção, etc).</p>
+			<div class="btn-group">
+				<button class="btn btn-success" >Executar</button>
+				<button class="btn btn-success">Limpar query</button>
+				<button class="btn btn-success">Limpar log</button>
+			</div>
+
+			<div class="form-group">
+				<textarea class="form-control" rows="7"></textarea>
+			</div>
+			<div id="window-return" class="col-md-12">
+				
+
+
+
+				<div class="row">
+					<div class="col-md-12" style="padding:0;">
+						<div class="panel with-nav-tabs panel-primary" style="border-color:#005252;">
+							<div class="panel-heading" style="background-color:#005252;padding-bottom:0;border-bottom:0;">
+								<ul class="nav nav-tabs" style="border-bottom:0">
+									<li class="active">
+										<a href="#" data-tab="mensagens">Mensagens</a>
+									</li>
+									<li>
+										<a href="#" data-tab="resultado">Resultado</a>
+									</li>
+								</ul>
+							</div>
+							<div class="panel-body" style=" height: 100%;">
+								<div class="tab-content">
+									<div class="tab-result aberta" id="mensagens">
+										<div class="log-msg erro">Tabela "alunos" não existe nesse banco de dados.</div>
+										<div class="log-msg sucesso">Tabela "alunos" não existe nesse banco de dados.</div>
+										<div class="log-msg alerta">Tabela "alunos" não existe nesse banco de dados.</div>
+
+									</div>
+                        			<div class="tab-result" id="resultado">
+                        				
+                        			</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+
+
+
+
+			</div>
 		</div>
 		<div id="missoes" class="aba">
 			<h1>Missões</h1>
