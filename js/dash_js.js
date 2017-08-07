@@ -1,3 +1,14 @@
+const LOG = {
+	ERRO: ["erro", "remove-sign"],
+	SUCESSO: ["successo", "ok-sign"],
+	INFO: ["info", "info-sign"]
+}
+
+
+function novoLog(msg, tipo){
+	$("#mensagensLogs").html($("#mensagensLogs").html() + "<div class=\"log-msg "+tipo[0]+"\"><span class=\"glyphicon glyphicon-"+tipo[1]+"\" aria-hidden=\"true\"> <b>"+msg+"</b></div>");
+}
+
 
 $(".menu-container ul li a").on('click', function(){
 	$(this)
@@ -46,3 +57,6 @@ $(".btn-group-vertical button").click(function(){
 
 	
 });
+
+
+

@@ -158,7 +158,7 @@ textarea{
 	font-size: 25px;
 }
 
-.tab-content #mensagens, .tab-content #resultado{
+.tab-content #mensagensLogs, .tab-content #resultado{
 	width: 100%;
 	height: 250px;
 	overflow: auto;
@@ -191,7 +191,7 @@ div.log-msg.sucesso{
 	
 }
 
-div.log-msg.alerta{
+div.log-msg.info{
 	border:1px solid blue;
 	background-color: #3b5998;
 }
