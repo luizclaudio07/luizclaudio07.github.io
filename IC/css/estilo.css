@@ -35,6 +35,7 @@ div{box-sizing: border-box;}
 .menu-container ul{
 	display: block;
 	padding:0;
+	list-style-type:none
 }
 .menu-container ul li{
 	width: 100%;

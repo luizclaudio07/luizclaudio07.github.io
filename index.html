@@ -4,14 +4,150 @@
 	<title>Luiz Cláudio</title>
 	<meta charset="utf-8">
 	<script type="text/javascript" src="IC/js/jquery.js"></script>
+	<link rel="stylesheet" type="text/css" href="IC/css/bootstrap/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
 	<script type="text/javascript">
 		$(document).ready(function(){
-			alert('It works');
-			$("body").html("<h1>Hello world!</h1>");
+			$(".menu-itens ul li a").on('click', function(){
+
+				$(this)
+				.parent().parent()
+				.find(".ativo").removeClass('ativo');
+
+				$(this).parent().addClass('ativo');
+
+				
+			});
 		});
 	</script>
+	<style type="text/css">
+		html, body{
+			width: 100%;
+			height: 100%;
+			background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+			font-family: "Verdana";
+		}
+
+		div, a{box-sizing: border-box;overflow:auto;}
+
+
+		div.card-central{
+			width: 100%;
+			height: 500px;
+			margin: 0 auto;
+			margin-top: 20px;
+			background-color: #1A237E;
+			border-radius: 5px;
+			box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+			padding: 5px;
+			
+		}
+
+		div.menu-itens{
+			display: block;
+			position: absolute;
+			width: 20%;
+			border-radius: 5px;
+			padding-top: 25px;
+			text-align: center;
+			
+
+		}
+
+		div.principal{
+			display: block;
+			background-color: white;
+			border-radius: 5px;
+			height: 100%;
+			width: 80%;
+			margin-left: 20%;
+			padding: 10px;
+			padding-left: 15px;
+		}
+
+		div.principal p{
+			font-family: Verdana, sans-serif;
+			font-size: 16px;
+			font-style: normal;
+			font-variant: normal;
+			font-weight: 400;
+			line-height: 30px;
+			text-align: justify;
+		}
+
+		ul{
+			margin-top: 10px;
+			display: block;
+			padding:0;
+			list-style-type:none
+		}
+
+		ul li{
+			width: 100%;
+			height: 40px;
+			border-radius: 5px;
+			padding-top: 10px;
+		}
+
+		ul li:hover{background-color:white}
+
+		ul li a{
+			color: white;
+			text-decoration: none;
+			display: block;
+			width: 100%;
+			height: 100%;
+		}
+		
+		li.ativo, ul li a:hover{
+			color: black;
+			text-decoration: none;
+			background-color: white;
+			border-radius: 5px;
+			/*transition: 0.2s ease-out;*/
+			
+		}
+
+		li.ativo a{
+			color: black;
+		}
+
+
+
+
+	</style>
 </head>
 <body>
+	<div class="col-md-6 col-md-offset-3">
+		<div class="card-central">
+			<div class="menu-itens">
+				<a href="https://www.instagram.com/luiz_claudioss/" style="color:white;font-size: 18px; margin-right: 5px;"><i class="fa fa-instagram"></i></a>
+				<a href="https://github.com/luizclaudio07" style="color:white;font-size: 18px; margin-right: 5px;"><i class="fa fa-github"></i></a>
+				<a href="https://www.linkedin.com/in/luiz-cl%C3%A1udio-da-silva-santos-7686a6133/" style="color:white;font-size: 18px;"><i class="fa fa-linkedin"></i></a>
+				<ul>
+					<li class="ativo"><a data-toggle="tab" href="#perfil">Perfil</a></li>
+					<li><a data-toggle="tab" href="#projetos">Projetos</a></li>
+					<li><a data-toggle="tab" href="#contato">Contato</a></li>
+				</ul>
+			</div>
+			<div class="principal tab-content">
+				<div id="perfil" class="tab-pane fade in active">
+					<h1 style='font-size:32px;font-family:consolas;margin-top:10px;margin-bottom:25px;'>Olá,</h1>
+					<p>me chamo Luiz Cláudio, tenho 20 anos, meio nerd e eterno estudante.</p>
+					<p>Nasci em Vitória/ES e atualmente sou acadêmico em tecnologia da informação, colecionador de conhecimentos, programador no DevTeam na <a href="https://www.prosystemnet.com.br/" target="blank">Prosystem</a>, pesquisador nas horas vagas e levemente apaixonado por web!</p>
+					<p>Formado também tecnologia mecânica industrial, trabalho com desenvolvimento de sistemas desde 2016, desde então busco sempre ampliar minhas habilidades técnicas e sociais, <i>network</i> com trabalhos em equipe, tecnologias e metodologias atuais de desenvolvimento.</p>
+				</div>
+				<div id="projetos" class="tab-pane fade">
+					dois
+				</div>
+				<div id="contato" class="tab-pane fade">
+					<script type="text/javascript" src="https://form.jotformz.com/jsform/72805854165664"></script>
+				</div>
+			</div>
+		</div><br/>
+	</div>
+	
 
 </body>
 </html>
