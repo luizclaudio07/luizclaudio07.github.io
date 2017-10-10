@@ -231,15 +231,15 @@ button+.or,
 }
 
 ::selection {
-    background: rgba(211, 47, 47, .75);
+    background:black;
     text-shadow: none;
-    color: #fff
+    color: white;
 }
 
 ::-moz-selection {
-    background: rgba(211, 47, 47, .75);
+    background:black;
     text-shadow: none;
-    color: #fff
+    color: white;
 }
 
 :focus {
