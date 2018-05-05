@@ -62,10 +62,6 @@
 					$('#count').text(msg.items.length);
 					
 					for(var i = 0; i < msg.items.length; i++){
-
-						if(i == 20){
-							break;
-						}
 						
 						$('#result').append('<div onclick="getDetalhes(\'#card' + i + '\')" id="card' + i + '" class="alert alert-dark cartao" data-toggle="collapse" data-target="#demo' + i + '" data-user="' + msg.items[i]['login'] + '">'+
 												'<img src="' + msg.items[i]['avatar_url'] + '" class="img-responsive img-rounded" style="margin-right:10px;" />'+
@@ -75,12 +71,6 @@
 													'<p></p>'+
 													'<p></p>'+
 												'</div>'+
-											'</div>');
-					}
-					
-					if(msg.total_count >= 20){
-						$('#result').append('<div class="alert alert-dark">'+
-												'<a href="#">Fim. Mostraremos até 20 usuários para não ficar tão extenso ;)</a>'+
 											'</div>');
 					}
 				}
