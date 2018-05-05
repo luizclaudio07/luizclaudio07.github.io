@@ -18,6 +18,40 @@
 		return dia + '/' + mes + '/' + ano;
 	}
 
+	function pesquisar(){
+
+		$('#result').html('');
+		$('#count').text('');
+
+		if($('#txtUser').val().length < 4){
+			return;
+		}
+		
+		$.ajax({
+			url: 'https://api.github.com/search/users?q=' + $('#txtUser').val().trim(),
+			type: 'GET',
+			dataType: 'json',
+			success: function(msg){
+
+				//console.log(msg);
+				$('#count').text(msg.items.length);
+				
+				for(var i = 0; i < msg.items.length; i++){
+					
+					$('#result').append('<div onclick="getDetalhes(\'#card' + i + '\')" id="card' + i + '" class="alert alert-dark cartao" data-toggle="collapse" data-target="#demo' + i + '" data-user="' + msg.items[i]['login'] + '">'+
+											'<img src="' + msg.items[i]['avatar_url'] + '" class="img-responsive img-rounded" style="margin-right:10px;" />'+
+											'<a href="#">' + msg.items[i]['login']  + '</a>'+
+											'<div id="demo' + i + '" class="collapse">'+
+												'<p style="margin-top:5px;"></p>'+
+												'<p></p>'+
+												'<p></p>'+
+											'</div>'+
+										'</div>');
+				}
+			}
+		});
+	}
+
 	function getDetalhes(id){
 
 		if($(id).find('div').hasClass('in'))
@@ -43,39 +77,13 @@
 	$(document).ready(function(){
 
 		$('#txtUser').keydown(function(){
-		//$('#btnPesquisar').click(function(){
-
-			$('#result').html('');
-			$('#count').text('');
-
-			if($('#txtUser').val().length < 4){
-				return;
-			}
-			
-			$.ajax({
-				url: 'https://api.github.com/search/users?q=' + $('#txtUser').val().trim(),
-				type: 'GET',
-				dataType: 'json',
-				success: function(msg){
-
-					//console.log(msg);
-					$('#count').text(msg.items.length);
-					
-					for(var i = 0; i < msg.items.length; i++){
-						
-						$('#result').append('<div onclick="getDetalhes(\'#card' + i + '\')" id="card' + i + '" class="alert alert-dark cartao" data-toggle="collapse" data-target="#demo' + i + '" data-user="' + msg.items[i]['login'] + '">'+
-												'<img src="' + msg.items[i]['avatar_url'] + '" class="img-responsive img-rounded" style="margin-right:10px;" />'+
-												'<a href="#">' + msg.items[i]['login']  + '</a>'+
-												'<div id="demo' + i + '" class="collapse">'+
-													'<p style="margin-top:5px;"></p>'+
-													'<p></p>'+
-													'<p></p>'+
-												'</div>'+
-											'</div>');
-					}
-				}
-			});
+			pesquisar();
 		});
+
+		$('#btnPesquisar').click(function(){
+			pesquisar();
+		});
+
 	});
 	</script>
 	<style type="text/css">
