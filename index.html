@@ -1,184 +1,172 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Dev Test Kuau</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<script type="text/javascript">
-
-	function formatarData(d){
-
-		var dia = d.substring(8, 10);
-		var mes = d.substring(5, 7);
-		var ano = d.substring(0, 4);
-
-		return dia + '/' + mes + '/' + ano;
-	}
-
-	function pesquisar(){
-
-		$('#result').html('');
-		$('#count').text('');
-
-		if($('#txtUser').val().length < 4){
-			return;
-		}
-		
-		$.ajax({
-			url: 'https://api.github.com/search/users?q=' + $('#txtUser').val().trim(),
-			type: 'GET',
-			dataType: 'json',
-			success: function(msg){
-
-				//console.log(msg);
-				$('#count').text(msg.items.length);
-				
-				for(var i = 0; i < msg.items.length; i++){
-					
-					$('#result').append('<div onclick="getDetalhes(\'#card' + i + '\')" id="card' + i + '" class="alert alert-dark cartao" data-toggle="collapse" data-target="#demo' + i + '" data-user="' + msg.items[i]['login'] + '">'+
-											'<img src="' + msg.items[i]['avatar_url'] + '" class="img-responsive img-rounded" style="margin-right:10px;" />'+
-											'<a href="#">' + msg.items[i]['login']  + '</a>'+
-											'<div id="demo' + i + '" class="collapse">'+
-												'<p style="margin-top:5px;"></p>'+
-												'<p></p>'+
-												'<p></p>'+
-											'</div>'+
-										'</div>');
-				}
-			}
-		});
-	}
-
-	function getDetalhes(id){
-
-		if($(id).find('div').hasClass('in'))
-			return;
-
-		//console.log('fazendo chamada para ' + 'https://api.github.com/users/' + $(id).data('user'));
-
-		$.ajax({
-			url: 'https://api.github.com/users/' + $(id).data('user'),
-			type: 'GET',
-			dataType: 'json',
-			success: function(data){
-				$(id).find('p').eq(0).text('E-mail: ' + (data.email === null ? '-' : data.email));
-				$(id).find('p').eq(1).text(data.name + ' entrou em ' + (data.created_at === null ? '-' : formatarData(data.created_at)));
-				$(id).find('p').eq(2).text('Possui ' + data.followers + ' seguidor(es) e está seguindo ' + data.following + ' pessoa(s)');
-			},
-			error: function(err){
-				console.log(err);
-			}
-		});
-	}
-				
-	$(document).ready(function(){
-
-		$('#txtUser').keydown(function(){
-			pesquisar();
-		});
-
-		$('#btnPesquisar').click(function(){
-			pesquisar();
-		});
-
-	});
-	</script>
-	<style type="text/css">
-		html,body{
-			height:100%;
-		}
-		
-		.well{
-			background-color:#1B1B1B;
-			border-color:#1B1B1B;
-			height:80%;
-			position: relative;
-			overflow-y: scroll;
-			border-radius:0;
-			margin:0;
-		}
-
-		.alert-dark{
-			background-color:#525659;
-			border-color:#525659;
-			color:#fff;
-		}
-
-		.alert-dark:hover{
-			background-color:#6f7173;
-			border-color:#6f7173;
-		}
-
-		.alert-dark a{
-			color:#fff;
-			text-decoration:none;
-			cursor:pointer;
-		}
-
-		.alert-dark img{
-			height: 50px;
-			display:inline-block;
-		}
-
-		p:first-child{
-			margin-top:55px;
-		}
-
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
 		::-webkit-scrollbar {
-		    width: 5px;
+			width: 0;
 		}
-
 		::-webkit-scrollbar-track {
-		    background: #f1f1f1; 
+			background: #f1f1f1; 
 		}
-
 		::-webkit-scrollbar-thumb {
-		    background: #888; 
+			background: #888; 
 		}
-
 		::-webkit-scrollbar-thumb:hover {
-		    background: #555; 
-		}
-		header{
-			width:100%;
-			height: 60px;
-			background-color:#1B1B1B;
-			padding: 8px;
-			border-radius:5px 5px 0 0;
-		}
-
-		footer{
-			width:100%;
-			height: 40px;
-			background-color:#1B1B1B;
-			padding: 8px;
-			border-radius: 0 0 5px 5px;
-			color: white;
-			font-size: 18px;
+			background: #555; 
 		}
 		
+		html, body{
+			margin:0;
+			padding:0;
+			border:0;
+			display:absolute;
+			height:100%;
+			width:100%;
+			overflow:hidden;
+			background:#e6e6e6;
+			font-family: consolas;
+		}
+		div{
+			box-sizing:border-box;
+		}
+		div.card{
+			color:#ffffff;
+			width:600px;
+			max-width:600px;
+			padding:10px;
+			background:#212121;
+			height:350px;
+			border-radius:20px;
+			box-sizing:border-box;
+			margin:0 auto;
+			margin-top:100px;
+			box-shadow: 0 8px 17px 5px rgba(0,0,0,0.2), 0 3px 14px 2px rgba(0,0,0,0.5), 0 5px 5px -3px rgba(0,0,0,0.3);
+			overflow-y:auto;
+		}	
+		
+		div.social{
+			width:600px;
+			background:transparent;
+			margin:25px auto;
+			text-align:center;
+			box-sizing:border-box;
+			
+		}	
+		
+		a img{
+			height:25px;
+			margin: 0 10px;
+		}
+		
+		a img:hover{
+			opacity:0.7;
+		}
+		
+		div.rows{
+			height:100%;
+			width:5%;
+			border-right: 4px solid gray;
+			float:left;
+			padding-right:3px;
+			margin-right:9px;
+			text-align:right;
+		}
+		
+		div.content{
+			height:100%;
+			width:90%;
+			float:left;
+		}
+		
+		p{
+			margin:1px 0;
+		}
+		
+		p.tab1{
+			margin-left:20px;;
+		}
+		
+		p.tab2{
+			margin-left:40px;;
+		}
+		
+		p.tab3{
+			margin-left:60px;;
+		}
+		
+		@media screen and (max-width: 600px) {
+		
+			div.card{
+				width:95%;
+				margin-top:20px;
+			}	
+			
+			div.social{
+				width:95%;
+			}	
+			
+			div.rows{
+				width:10%;
+			}
+			
+			div.content{
+				width:85%;
+			}
+			
+		}
+		
+		span.reservado{color:#65d9ef;}
+		span.comentario{color:#008000;}
+		span.var{color:#f14b5e;}
+		span.number{color:#ae81ff;}
+		span.string{color:#ffcb6b;}
 	</style>
 </head>
-<body>
-<br>
-	<div class="col-md-4"></div>
-	<div class="col-md-4" style="height:90%;">
-		<header>
-			<div class="input-group" style="">
-				<input type="text" class="form-control input-lg" id="txtUser" placeholder="Pesquise aqui...">
-				<div class="input-group-btn"> 
-					<button class="btn btn-default btn-lg" id="btnPesquisar" type="submit"><i class="glyphicon glyphicon-search"></i></button>
-				</div>
-			</div>
-		</header>
-		<aside id="result" class="well">
-		</aside>
-		<footer>
-			Total da pesquisa: <span id="count">0</span>
-		</footer>
-	<div class="col-md-4"></div>
+<body> 	
+	<div class="card">
+		<div class="rows">
+			<p>1</p>
+			<p>2</p>
+			<p>3</p>
+			<p>4</p>
+			<p>5</p>
+			<p>6</p>
+			<p>7</p>
+			<p>8</p>
+			<p>9</p>
+			<p>10</p>
+			<p>11</p>
+			<p>12</p>
+			<p>13</p>
+			<p>14</p>
+			<p>15</p>
+			<p>16</p>
+		</div>
+		<div class="content">
+			<p><span class="reservado">function</span> apresentacao(){</p>
+			<p class="tab1"><span class="var">var</span> nome <span class="var">=</span><span class="string"> 'Luiz Cláudio'</span>;</p>
+			<p class="tab1"><span class="var">var</span> idade <span class="var">=</span><span class="number"> 21</span>;</p>
+			<p>&nbsp;</p>
+			<p class="tab1"><span class="var">var</span> habilidades <span class="var">=</span> [</p>
+			<p class="tab2"><span class="string">'Programador WEB'</span>, <span class="string">'C#'</span>, <span class="string">'Javascript/Jquery'</span>,</p>
+			<p class="tab2"><span class="string">'PHP'</span>, <span class="string">'SQL'</span>, <span class="string">'.NET Framework',</span></p>
+			<p class="tab2"><span class="string">'trabalho em equipe'</span></p>
+			<p class="tab1">];</p>
+			<p>&nbsp;</p>
+			<p class="tab1"><span class="var">var</span> trabalhos <span class="var">=</span> [</p>
+			<p class="tab2"><span class="comentario">//Clique no nome para abrir</span></p>
+			<p class="tab2"><span class="string">'Projeto Visitar'</span>, <span class="string">'SQL Game'</span>,</p>
+			<p class="tab1">];</p>
+			<p>&nbsp;</p>
+			<p>}</p>
+		</div>
+		
+	</div>
+	<div class="social">
+		<a href="google.com.br" target="_blank"><img src="https://image.flaticon.com/icons/png/128/34/34405.png" /></a>
+		<a href="" target="_blank"><img src="https://image.flaticon.com/icons/png/128/25/25657.png" /></a>
+		<a href="" target="_blank"><img src="https://image.flaticon.com/icons/png/128/70/70562.png" /></a>
+		<a href="" target="_blank"><img src="https://image.flaticon.com/icons/png/128/717/717392.png" /></a>
+	</div>
 </body>
-</html>
