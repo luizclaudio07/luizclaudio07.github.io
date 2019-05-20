@@ -71,7 +71,6 @@
     .content {
         color:#000;
         display: table-cell;
-        
         padding: 0 30%;
         font-size: 1.25rem;
         line-height: 2;
@@ -79,19 +78,19 @@
     	text-align: justify;
     }
 
-    div.link{
+    nav ul li a{
     	margin:0px 20px;
     	display: inline-block;
-    	font-size: 16px;
+    	font-size: 30px;
     	color:#fff;
     	padding:5px;
         border-radius: 5px;
     	cursor: pointer;
     }
 
-    div.link:hover, .link.active{
+    nav li:hover{
     	background-color: #cb0032;
-    	
+    	border-radius: 5px;
     }
 
     ul.jobs-list {
@@ -127,92 +126,39 @@
             font-weight: 300;
         }
 
-        .label{
-        	display: none;
-        }
-
-        div.link{
-        	
-        }
-
-        i{
-        	font-size: 30px;
-        }
     }
 </style>
 
 <script type="text/javascript">
 	$(document).ready(function(){
 
-		var _AlturaDocumento = $(window).height();
-		var body = $('html, body');
+		
 
-		$(window).resize(function(){
-			_AlturaDocumento = $(window).height();
-			
-		});
+		
 
-		$('div.link').click(function(){
-
-			
-			$('div.link').removeClass('active');
-			$(this).addClass('active');
-
-			switch($(this).data('target')){
-				case 'me':
-					body.animate({scrollTop: 0}, '500');
-
-					break;
-
-				case 'jobs':
-					body.animate({scrollTop: _AlturaDocumento}, '500');
-					break;
-
-				case 'skills':
-					body.animate({scrollTop: _AlturaDocumento*2}, '500');
-					break;
-
-				case 'phone':
-					body.animate({scrollTop: _AlturaDocumento*3}, '500');
-					break;
-
-
-			}
-
-			
-		});
+		
 	});
 </script>
 <body>
 	<nav>
 		<ul>
 			<li>
-				<div data-target="me" class="link active">
-					<p><i class="fas fa-user"></i></p>
-					<p class="label">Sobre Luiz</p>
-				</div>
+				<a href="#me"><i class="fas fa-user"></i></a>
 			</li>
 			<li>
-				<div data-target="jobs" class="link">
-					<p><i class="fas fa-code"></i></p>
-					<p class="label">Trabalhos</p>
-				</div>
+				<a href="#jobs"><i class="fas fa-code"></i></a>
 			</li>
 			<li>
-				<div data-target="skills" class="link">
-					<p><i class="fas fa-puzzle-piece"></i></p>
-					<p class="label">Habilidade</p>
-				</div>
+				<a href="#skills"><i class="fas fa-puzzle-piece"></i></a>
 			</li>
 			<li>
-				<div data-target="phone" class="link">
-					<p><i class="fas fa-envelope"></i></p>
-					<p class="label">Contato</p>
-				</div>
+				<a href="#phone"><i class="fas fa-envelope"></i></a>
 			</li>
+			
 			
 		</ul>
 	</nav>
+	<div id="tudao">
 
     <section class="conteudo" id="me">
         <div class="content">
@@ -241,6 +187,8 @@
 	    	<p>Meu nome 4</p>
         </div>
     </section>
+
+</div>
     
 </body>
 </html>
