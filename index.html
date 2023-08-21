@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pr-BR">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -7,18 +7,16 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="styles.css">
     <title>Hello, world!</title>
   </head>
   <body>
     
-    <nav class="navbar navbar-light bg-light">
-      <a class="navbar-brand mx-auto" href="#">
-        <img src="https://unisales.br/wp-content/uploads/2020/03/logo.svg" class="d-inline-block align-top " alt="">
-      </a>
-    </nav>
-
-    <div class="container-fluid">
+    <div class="container">
+      <img src="https://unisales.br/wp-content/uploads/2020/03/logo.svg" class="d-inline-block" alt="" style="margin-top: 20px;">
+    </div>
+    <br>
+    <div class="container-fluid" style="padding: 0;">
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="max-height: 550px;">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -47,78 +45,36 @@
       </div>
     </div>
 
-    <div class="container" style="padding-top: 30px;">
+    <div id="acervo" class="container" style="padding-top: 30px;">
       <div class="jumbotron">
         <h2 class="display-5">Museu de biologia UNISALES</h2>
-        <hr class="my-4">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque cursus eget mi vitae cursus. Aenean vitae magna a ligula eleifend ultrices. Cras pretium, orci ac vehicula hendrerit, tellus erat bibendum eros, et feugiat diam elit a lorem. Duis eu odio id massa convallis vestibulum. Suspendisse eleifend mauris non enim tincidunt dictum. Ut sed nulla ac nulla mattis vestibulum vitae quis mauris. Maecenas libero quam, molestie a libero in, viverra cursus metus.</p>
-        <p class="lead">
-          <a class="btn btn-primary btn-lg" href="#" role="button">Saiba mais</a>
-        </p>
+        <hr class="mt-3 mb-5">
+        <p class="lead text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque cursus eget mi vitae <span class="badge badge-secondary">cursos</span>. Aenean vitae magna a ligula eleifend ultrices. Cras pretium, orci ac vehicula hendrerit, tellus erat bibendum eros, et feugiat diam elit a lorem. Duis eu odio id massa convallis vestibulum. Suspendisse eleifend <span class="badge badge-secondary">100 peças</span> non enim tincidunt dictum. Ut sed nulla ac nulla mattis vestibulum vitae quis mauris. Maecenas libero quam, molestie a libero in, viverra cursus metus.</p>
+        <a class="btn btn-outline-light" href="#acervo" role="button">Ver coleções</a>
       </div>
     </div>
 
     <div class="container">
-      <div class="card-deck">
-        
-        <div class="card">
-          <a href="categorias.html">
-          <img class="card-img-top" src="https://www.pucrs.br/mct/wp-content/uploads/sites/223/2019/03/colecoes_cientificas-abelhas-operaria-plebleia-sp.jpg" alt="Card image cap">
-          
-          <div class="card-footer">
-            <h5 class="card-title">Répteis</h5>
-
-          </div>
-        </a>
-        </div>
-      
-
-        <div class="card">
-          <img class="card-img-top" src="https://www.pucrs.br/mct/wp-content/uploads/sites/223/2019/03/colecoes_cientificas-aracnideos-foto-03.jpg" alt="Card image cap">
-          
-          <div class="card-footer">
-            <h5 class="card-title">Card title</h5>
-
+      <div class="row">
+        <div class="col-md-4 col-sm-12">
+          <div class="card border-0">
+            <a href="categorias.html">
+              <img class="card-img-top" 
+                src="FOTOS/MAMIFEROS/1.jpg" 
+                alt="Card image cap">
+              <div class="card-footer">
+                <h5 class="card-title">Cnidario</h5>
+              </div>
+            </a>
           </div>
         </div>
-        <div class="card">
-          <img class="card-img-top" src="https://www.pucrs.br/mct/wp-content/uploads/sites/223/2019/03/colecoes_cientificas-anfibios-hypsiboas_leptolineatus.jpg" alt="Card image cap">
-          
-          <div class="card-footer">
-            <h5 class="card-title">Card title</h5>
-
-          </div>
-        </div>
-        
+        <div class="col"></div>
+        <div class="col"></div>
       </div>
       <br>
-      <div class="card-deck">
-        <div class="card">
-          <img class="card-img-top" src="https://www.pucrs.br/mct/wp-content/uploads/sites/223/2019/03/colecoes_cientificas-abelhas-operaria-plebleia-sp.jpg" alt="Card image cap">
-          
-          <div class="card-footer">
-            <h5 class="card-title">Card title</h5>
-
-          </div>
-        </div>
-        <div class="card">
-          <img class="card-img-top" src="https://www.pucrs.br/mct/wp-content/uploads/sites/223/2019/03/colecoes_cientificas-aracnideos-foto-03.jpg" alt="Card image cap">
-          
-          <div class="card-footer">
-            <h5 class="card-title">Card title</h5>
-
-          </div>
-        </div>
-        <div class="card">
-          <img class="card-img-top" src="https://www.pucrs.br/mct/wp-content/uploads/sites/223/2019/03/colecoes_cientificas-anfibios-hypsiboas_leptolineatus.jpg" alt="Card image cap">
-          
-          <div class="card-footer">
-            <h5 class="card-title">Card title</h5>
-
-          </div>
-        </div>
-        
-      </div>
+      
+      
+     
     </div>
 
     <!-- Optional JavaScript -->
