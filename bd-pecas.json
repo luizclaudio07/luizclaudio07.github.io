@@ -1,0 +1,24 @@
+[
+  {
+    "categoria": "AVES",
+    "descricaoCategoria": "Aqui o texto da caregoria aves",
+    "items": [
+      {
+        "id": 1,
+        "nomePeca": "Coruja buraqueira",
+        "fotoCapa": "FOTOS\\AVES\\1\\3. crânio.jpg"
+      },
+      {
+        "id": 2,
+        "nomePeca": "Sabiá",
+        "fotoCapa": "FOTOS\\AVES\\2\\PhotoRoom_013_20230817_003306.jpg"
+      },
+      {
+        "id": 3,
+        "nomePeca": "Crânio de Socó",
+        "fotoCapa": "FOTOS\\AVES\\3\\PhotoRoom_001_20230817_003306.jpg"
+      }
+    ]
+  }
+
+]
