@@ -1,0 +1,32 @@
+[
+  {
+    "categoria": "AVES",
+    "urlCapaCategoria": "C:\\Users\\luizc\\OneDrive\\Documentos\\capas\\AVES.jpeg",
+    "pastaCategoria": "AVES"
+  },
+  {
+    "categoria": "PEIXES",
+    "urlCapaCategoria": "C:\\Users\\luizc\\OneDrive\\Documentos\\capas\\PEIXES.jpeg",
+    "pastaCategoria": "PEIXES"
+  },
+  {
+    "categoria": "CNIDÁRIOS",
+    "urlCapaCategoria": "C:\\Users\\luizc\\OneDrive\\Documentos\\capas\\CNIDARIOS.jpeg",
+    "pastaCategoria": "CNIDARIOS"
+  },
+  {
+    "categoria": "MOLUSCOS",
+    "urlCapaCategoria": "C:\\Users\\luizc\\OneDrive\\Documentos\\capas\\MOLUSCOS.jpeg",
+    "pastaCategoria": "MOLUSCOS"
+  },
+  {
+    "categoria": "INSETOS",
+    "urlCapaCategoria": "C:\\Users\\luizc\\OneDrive\\Documentos\\capas\\INSETOS.jpeg",
+    "pastaCategoria": "INSETOS"
+  },
+  {
+    "categoria": "RÉPTEIS",
+    "urlCapaCategoria": "C:\\Users\\luizc\\OneDrive\\Documentos\\capas\\REPTEIS.jpeg",
+    "pastaCategoria": "REPTEIS"
+  }
+]

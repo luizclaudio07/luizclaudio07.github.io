@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <title>ACERVO DO WILL</title>
+  </head>
+  <body>
+    <div class="container">
+      <img src="https://unisales.br/wp-content/uploads/2020/03/logo.svg" class="d-inline-block" alt="" style="margin-top: 20px;">
+    </div>
+  
+    <div class="jumbotron" id="cabecalho">
+      <div class="container">
+        <h1 class="display-4">[NOMECAREGORIA]</h1>
+        <p class="lead">[DESCRICAOCATEGORIA]</p>
+      </div>
+    </div>
+    <div class="container">
+
+      <div class="row" id="conteudo">
+        
+        
+      </div>
+      
+    
+    </div>
+
+    <script>
+
+      function getCategoriaParam() {
+        const queryString = window.location.search;
+        const params = new URLSearchParams(queryString);
+        return params.get('categoria');
+      }
+
+
+      function carregaJSON(){
+        fetch('https://raw.githubusercontent.com/luizclaudio07/luizclaudio07.github.io/master/bd-pecas.json?v='+Math.floor(Math.random() * 999)) 
+        .then(response => response.json())  
+        .then(data =>  { 
+          
+          pecaJSON = data.find(x => x.categoria == getCategoriaParam()) ;
+          
+          var pecasCategoria = '';
+          var conteudoCabecalho = document.getElementById('cabecalho');
+          var conteudo = document.getElementById('conteudo');
+          conteudoCabecalho.innerHTML = conteudoCabecalho.innerHTML
+                                .replace('[NOMECAREGORIA]', pecaJSON.categoria)
+                                .replace('[DESCRICAOCATEGORIA]', pecaJSON.descricaoCategoria);
+
+          
+          let contentCard = `<div class="col-md-4 col-sm-12">
+          <div class="card border-0">
+            <a href="peca.html?categoria=${pecaJSON.pastaCategoria}&id=[IDPECA]">
+            <img class="card-img-top" src="[CAPAPECA]" alt="">
+            <div class="card-footer">
+              <h5 class="card-title">[NOMEPECA]</h5>
+              <span class="badge badge-secondary"><i class="uil uil-bell"> 8 fotos</span>
+            </div>
+          </a>
+          </div>
+          </div>`;
+          
+          pecaJSON.items.forEach(item => {
+            pecasCategoria += contentCard.replace('[CATEGORIA]', item.pastaCategoria).replace('[NOMEPECA]', item.nomePeca).replace('[CAPAPECA]', item.fotoCapa).replace('[IDPECA]', item.id);
+          });
+
+          conteudo.innerHTML = pecasCategoria;
+
+        })
+        .catch(error => { console.error('Erro ao carregar o arquivo JSON:', error) });
+      }
+
+      window.onload = function(){
+        carregaJSON()
+      }
+    </script>
+
+  </body>
+</html>
