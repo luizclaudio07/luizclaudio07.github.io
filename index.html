@@ -50,47 +50,7 @@
 
       var bd = [];
 
-      function carregaJSON(){
-        fetch('https://raw.githubusercontent.com/luizclaudio07/luizclaudio07.github.io/master/bd.json?v='+Math.floor(Math.random() * 999)) 
-        .then(response => response.json())  
-        .then(data =>  { 
-        
-          bd = data;
-          var contentCategorias = '';
-          var htmlCard = `
-          <div class="col-md-3 col-sm-12">
-            <div class="card border-0">
-              <a href="categoria.html?categoria=[CATEGORIAURL]">
-                <img class="card-img-top" 
-                  src="[URLCAPACATEGORIA]">
-                <div class="card-footer">
-                  <h5 class="card-title">[NOMECATEGORIA]</h5>
-                </div>
-              </a>
-            </div>
-          </div>`;
-
-          bd.forEach((item) => {
-            console.log(item)
-
-            contentCategorias += htmlCard
-                                 .replace('[CATEGORIAURL]', item.pastaCategoria)
-                                 .replace('[URLCAPACATEGORIA]', item.urlCapaCategoria)
-                                 .replace('[NOMECATEGORIA]', item.categoria);
-
-          });
-
-          var conteudo = document.getElementById('conteudo');
-
-          conteudo.innerHTML = contentCategorias
-
-        })
-        .catch(error => { console.error('Erro ao carregar o arquivo JSON:', error) });
-      }
-
-      window.onload = function() {
-        carregaJSON()
-      }
+     
     </script>
   </body>
 </html>
