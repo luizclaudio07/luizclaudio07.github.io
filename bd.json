@@ -1,32 +1,32 @@
 [
   {
     "categoria": "AVES",
-    "urlCapaCategoria": "capas\\AVES.jpeg",
+    "urlCapaCategoria": "CAPAS/AVES.jpeg",
     "pastaCategoria": "AVES"
   },
   {
     "categoria": "PEIXES",
-    "urlCapaCategoria": "capas\\PEIXES.jpeg",
+    "urlCapaCategoria": "capas/PEIXES.jpeg",
     "pastaCategoria": "PEIXES"
   },
   {
     "categoria": "CNIDÁRIOS",
-    "urlCapaCategoria": "capas\\CNIDARIOS.jpeg",
+    "urlCapaCategoria": "CAPAS/CNIDARIOS.jpeg",
     "pastaCategoria": "CNIDARIOS"
   },
   {
     "categoria": "MOLUSCOS",
-    "urlCapaCategoria": "capas\\MOLUSCOS.jpeg",
+    "urlCapaCategoria": "CAPAS/MOLUSCOS.jpeg",
     "pastaCategoria": "MOLUSCOS"
   },
   {
     "categoria": "INSETOS",
-    "urlCapaCategoria": "capas\\INSETOS.jpeg",
+    "urlCapaCategoria": "CAPAS/INSETOS.jpeg",
     "pastaCategoria": "INSETOS"
   },
   {
     "categoria": "RÉPTEIS",
-    "urlCapaCategoria": "capas\\REPTEIS.jpeg",
+    "urlCapaCategoria": "CAPAS/REPTEIS.jpeg",
     "pastaCategoria": "REPTEIS"
   }
 ]
