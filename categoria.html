@@ -35,7 +35,7 @@
       function getCategoriaParam() {
         const queryString = window.location.search;
         const params = new URLSearchParams(queryString);
-        return params.get('categoria');
+        return params.get('categoria') ;
       }
 
 
@@ -43,8 +43,12 @@
         fetch('https://raw.githubusercontent.com/luizclaudio07/luizclaudio07.github.io/master/bd-pecas.json?v='+Math.floor(Math.random() * 999)) 
         .then(response => response.json())  
         .then(data =>  { 
-          
+
           pecaJSON = data.find(x => x.categoria == getCategoriaParam()) ;
+
+          if(!pecaJSON){
+            window.location.href = 'index.html'
+          }
           
           var pecasCategoria = '';
           var conteudoCabecalho = document.getElementById('cabecalho');
