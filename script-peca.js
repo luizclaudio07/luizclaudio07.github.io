@@ -1,38 +1,7 @@
-let currentIndex = 0;
-const images = document.querySelectorAll('.gallery-item');
+
 const lightbox = document.getElementById('lightbox');
 const lightboxImg = document.getElementById('lightbox-img');
-
-function openLightbox(index) {
-  currentIndex = index;
-  updateLightboxImage();
-  lightbox.style.display = 'flex';
-}
-
-function closeLightbox() {
-  lightbox.style.display = 'none';
-}
-
-function changeImage(change) {
-  currentIndex += change;
-  if (currentIndex < 0) {
-    currentIndex = images.length - 1;
-  } else if (currentIndex >= images.length) {
-    currentIndex = 0;
-  }
-  updateLightboxImage();
-}
-
-function updateLightboxImage() {
-  const imageSrc = images[currentIndex].getAttribute('src');
-  lightboxImg.setAttribute('src', imageSrc);
-}
-
-images.forEach((image, index) => {
-  image.addEventListener('click', () => {
-    openLightbox(index);
-  });
-});
+var imagesList;
 
 
 function getParam(param) {
@@ -83,18 +52,54 @@ function carregaJSON(){
 
     var areaInfo = document.getElementById('areaInfo');
 
-    areaInfo = areaInfo.replace('[NOMEPECA]', pecaJSON.nomePeca).replace('[DESCRICAO]', pecaJSON.descricao)
+    areaInfo.innerHTML = areaInfo.innerHTML.replace('[NOMEPECA]', pecaJSON.nomePeca).replace('[NOMECIENTIFICO]', pecaJSON.nomeCientifico).replace('[DESCRICAO]', pecaJSON.descricao)
 
-    
-
+    debugger;
+    imagesList = document.querySelectorAll('.gallery-item');
+    imagesList.forEach((image, index) => {
+      image.addEventListener('click', () => {
+        openLightbox(index);
+      });
+    });
 
 
   })
   .catch(error => { console.error('Erro ao carregar o arquivo JSON:', error) });
 }
 
-window.onload = function(){
-  carregaJSON()
+
+
+let currentIndex = 0;
+
+function openLightbox(index) {
+  currentIndex = index;
+  updateLightboxImage();
+  lightbox.style.display = 'flex';
 }
 
+function closeLightbox() {
+  lightbox.style.display = 'none';
+}
+
+function changeImage(change) {
+  currentIndex += change;
+  if (currentIndex < 0) {
+    currentIndex = imagesList.length - 1;
+  } else if (currentIndex >= imagesList.length) {
+    currentIndex = 0;
+  }
+  updateLightboxImage();
+}
+
+function updateLightboxImage() {
+  const imageSrc = imagesList[currentIndex].getAttribute('src');
+  lightboxImg.setAttribute('src', imageSrc);
+}
+
+window.onload = function(){
+  carregaJSON();
+  
+  
+  
+}
 
