@@ -14,7 +14,7 @@
       },
       {
         "id": 2,
-        "nomePeca": "Crânio de Bacurau",
+        "nomePeca": "Carcará",
         "nomeCientifico": "egipty",
         "fotoCapa": "FOTOS\\AVES\\2\\acervo (1).jpg",
         "qtdFotos": 4,
@@ -22,15 +22,38 @@
       },
       {
         "id": 3,
+        "nomePeca": "Crânio de Bacurau",
+        "nomeCientifico": "egipty",
+        "fotoCapa": "FOTOS\\AVES\\3\\acervo (1).jpg",
+        "qtdFotos": 4,
+        "descricao": "impsum "
+      },
+      {
+        "id": 4,
+        "nomePeca": "Crânio de Marreco-irerê",
+        "nomeCientifico": "egipty",
+        "fotoCapa": "FOTOS\\AVES\\4\\acervo (1).jpg",
+        "qtdFotos": 4,
+        "descricao": "impsum "
+      },
+      {
+        "id": 5,
         "nomePeca": "Crânio de Socó",
         "nomeCientifico": "catus",
-        "fotoCapa": "FOTOS\\AVES\\3\\acervo (1).jpg",
+        "fotoCapa": "FOTOS\\AVES\\5\\acervo (1).jpg",
+        "qtdFotos": 4,
+        "descricao": "dolor"
+      },
+      {
+        "id": 6,
+        "nomePeca": "Ninho de João-de-barro",
+        "nomeCientifico": "catus",
+        "fotoCapa": "FOTOS\\AVES\\6\\acervo (1).jpg",
         "qtdFotos": 4,
         "descricao": "dolor"
       }
     ]
   }
-
 ]
 
 
