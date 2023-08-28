@@ -86,10 +86,10 @@
     ]
   },
   {
-    "categoria": "CNIDÁRIOS",
+    "categoria": "CNIDARIOS",
     "pastaCategoria": "CNIDARIOS",
-    "descricaoCategoria": "Aqui o texto da caregoria aves",
-    "items:": [
+    "descricaoCategoria": "Aqui o texto da caregoria CNIDÁRIOS",
+    "items": [
       {
         "id": 1,
         "nomePeca": "Anêmona-do-mar",

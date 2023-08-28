@@ -44,7 +44,7 @@
         .then(response => response.json())  
         .then(data =>  { 
 
-          pecaJSON = data.find(x => x.categoria == getCategoriaParam()) ;
+          pecaJSON = data.find(x => x.pastaCategoria == getCategoriaParam()) ;
 
           if(!pecaJSON){
             window.location.href = 'index.html'
@@ -69,6 +69,7 @@
           </a>
           </div>
           </div>`;
+          
           
           pecaJSON.items.forEach(item => {
             pecasCategoria += contentCard.replace('[CATEGORIA]', item.pastaCategoria).replace('[NOMEPECA]', item.nomePeca).replace('[CAPAPECA]', item.fotoCapa).replace('[IDPECA]', item.id);

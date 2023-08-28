@@ -54,7 +54,6 @@ function carregaJSON(){
 
     areaInfo.innerHTML = areaInfo.innerHTML.replace('[NOMEPECA]', pecaJSON.nomePeca).replace('[NOMECIENTIFICO]', pecaJSON.nomeCientifico).replace('[DESCRICAO]', pecaJSON.descricao)
 
-    debugger;
     imagesList = document.querySelectorAll('.gallery-item');
     imagesList.forEach((image, index) => {
       image.addEventListener('click', () => {
@@ -67,7 +66,6 @@ function carregaJSON(){
 
     const templateTaxo = "<span class=\"badge  badge-secondary\"><b>[NOMETAXO]:</b> [VALORTAXO]</span>";
 
-    console.log('peca', pecaJSON)
 
     if(pecaJSON.reino){
       areaInfo.innerHTML +=  templateTaxo.replace('[NOMETAXO]', "Reino").replace('[VALORTAXO]', pecaJSON.reino)
