@@ -62,6 +62,61 @@ function carregaJSON(){
       });
     });
 
+    var areaInfo = document.getElementById('taxo');
+
+
+    const templateTaxo = "<span class=\"badge  badge-secondary\"><b>[NOMETAXO]:</b> [VALORTAXO]</span>";
+
+    console.log('peca', pecaJSON)
+
+    if(pecaJSON.reino){
+      areaInfo.innerHTML +=  templateTaxo.replace('[NOMETAXO]', "Reino").replace('[VALORTAXO]', pecaJSON.reino)
+    }
+
+    if(pecaJSON.subReino){
+      areaInfo.innerHTML +=  templateTaxo.replace('[NOMETAXO]', "Sub-reino").replace('[VALORTAXO]', pecaJSON.subReino)
+    }
+
+    if(pecaJSON.filo){
+      areaInfo.innerHTML +=  templateTaxo.replace('[NOMETAXO]', "Filo").replace('[VALORTAXO]', pecaJSON.filo)
+    }
+
+    if(pecaJSON.subFilo){
+      areaInfo.innerHTML +=  templateTaxo.replace('[NOMETAXO]', "Sub-filo").replace('[VALORTAXO]', pecaJSON.subFilo)
+    }
+
+    if(pecaJSON.classe){
+      areaInfo.innerHTML +=  templateTaxo.replace('[NOMETAXO]', "Classe").replace('[VALORTAXO]', pecaJSON.classe)
+    }
+
+    if(pecaJSON.subClasse){
+      areaInfo.innerHTML +=  templateTaxo.replace('[NOMETAXO]', "Sub-classe").replace('[VALORTAXO]', pecaJSON.subClasse)
+    }
+
+    if(pecaJSON.ordem){
+      areaInfo.innerHTML +=  templateTaxo.replace('[NOMETAXO]', "Ordem").replace('[VALORTAXO]', pecaJSON.ordem)
+    }
+
+    if(pecaJSON.familia){
+      areaInfo.innerHTML +=  templateTaxo.replace('[NOMETAXO]', "Família").replace('[VALORTAXO]', pecaJSON.familia)
+    }
+
+    if(pecaJSON.subFamilia){
+      areaInfo.innerHTML +=  templateTaxo.replace('[NOMETAXO]', "Sub-família").replace('[VALORTAXO]', pecaJSON.subFamilia)
+    }
+
+    if(pecaJSON.genero){
+      areaInfo.innerHTML +=  templateTaxo.replace('[NOMETAXO]', "Gênero").replace('[VALORTAXO]', pecaJSON.genero)
+    }
+
+    if(pecaJSON.especie){
+      areaInfo.innerHTML +=  templateTaxo.replace('[NOMETAXO]', "Espécie").replace('[VALORTAXO]', pecaJSON.especie)
+    }
+
+  
+
+
+
 
   })
   .catch(error => { console.error('Erro ao carregar o arquivo JSON:', error) });

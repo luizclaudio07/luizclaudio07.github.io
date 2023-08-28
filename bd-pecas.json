@@ -44,11 +44,8 @@
         "reino": "Animalia",
         "filo": "Chordata",
         "classe": "Aves",
-        "ordem": "Anseriformes",
-        "familia": "Anatidae",
-        "subFamilia": "Dendrocygninae",
-        "genero": "Dendrocygna",
-        "especie": "viduata"
+        "ordem": "Caprimulgiformes",
+        "familia": "Caprimulgidae"
       },
       {
         "id": 4,
@@ -60,15 +57,23 @@
         "reino": "Animalia",
         "filo": "Chordata",
         "classe": "Aves",
-        "ordem": "Pelecaniformes",
-        "familia": "Ardeidae"
+        "ordem": "Anseriformes",
+        "familia": "Anatidae",
+        "subFamilia": "Dendrocygninae",
+        "genero": "Dendrocygna",
+        "especie": "viduata"
       },
       {
         "id": 5,
         "nomePeca": "Crânio de Socó",
         "fotoCapa": "FOTOS\\AVES\\5\\acervo (1).jpg",
         "qtdFotos": 4,
-        "descricao": "Vive em áreas úmidas, como brejos, pântanos e veredas e também regiões florestais. Costuma esconder-se na vegetação ribeirinha. Anda como se se esgueirasse, a passos largos, bem como se observasse um perigo ou uma oportunidade.   Alimenta-se de quase tudo que encontra: crustáceos, répteis, anfíbios, peixes e insetos. Captura suas presas andando vagarosamente, em águas rasas ou pântanos no interior da floresta. Oculto na densa vegetação, espreita peixes e outros organismos aquáticos ficando em total imobilidade nas margens. Captura sua presa com seu bico afilado, dardejando-a em golpes certeiros e retendo-a entre a maxila e a mandíbula."
+        "descricao": "Vive em áreas úmidas, como brejos, pântanos e veredas e também regiões florestais. Costuma esconder-se na vegetação ribeirinha. Anda como se se esgueirasse, a passos largos, bem como se observasse um perigo ou uma oportunidade.   Alimenta-se de quase tudo que encontra: crustáceos, répteis, anfíbios, peixes e insetos. Captura suas presas andando vagarosamente, em águas rasas ou pântanos no interior da floresta. Oculto na densa vegetação, espreita peixes e outros organismos aquáticos ficando em total imobilidade nas margens. Captura sua presa com seu bico afilado, dardejando-a em golpes certeiros e retendo-a entre a maxila e a mandíbula.",
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "Aves",
+        "ordem": "Pelecaniformes",
+        "familia": "Ardeidae"
       },
       {
         "id": 6,
@@ -85,10 +90,76 @@
     "pastaCategoria": "CNIDARIOS",
     "descricaoCategoria": "Aqui o texto da caregoria aves",
     "items:": [
-
+      {
+        "id": 1,
+        "nomePeca": "Anêmona-do-mar",
+        "fotoCapa": "FOTOS\\CNIDARIOS\\1\\acervo (1).jpg",
+        "qtdFotos": 5,
+        "descricao": "Animal invertebrado pertencente ao filo Cnidário. As anêmonas-do-mar compõe a Classe Anthozoa, que pertence ao filo Cnidaria. Apresenta-se fixa a substrato marinho. Na parte superior apresenta a boca rodeada por tentáculos. Seu corpo pode ser dividido em três partes principais: o disco pedal, estrutura adesiva que facilita a fixação do animal no substrato; corpo cilíndrico, que pode variar entre 2,5 centímetros e 1,5 metros de comprimento; e disco oral, cercado por tentáculos em forma de pétala, que são responsáveis pela captura de alimento. Embora as anêmonas-do-mar sejam organismos sésseis frequentemente observados sobre corais e rochas, estas podem se movimentar lentamente através do deslocamento de seu disco pedal ou por contrações corporais, que se assemelham a pequenos pulos. Parentes das águas-vivas, as anêmonas-do-mar compartilham com estes animais a principal característica do filo Cnidaria: a presença de cnidócitos (ou cnidoblastos), células especializadas na injeção de uma neurotoxina paralisante em suas presas. Os cnidócitos são encontrados nos tentáculos das anêmonas, e têm como características o formato de cápsula e uma estrutura chamada cnidocílio, que atua como um gatilho; quando este é estimulado, o nematocisto é projetado para fora da cápsula e se prende ao corpo da presa, liberando uma substância urticante capaz de paralisar ou matá-la. É através desse aparato que as anêmonas consomem suas presas preferidas como pequenos peixes, camarões ou caranguejos. ",
+        "reino": "Animalia",
+        "filo": "Cnidaria",
+        "classe": "Anthozoa",
+        "subClasse": "Hexacorallia",
+        "ordem": "Actiniaria"
+      },
+      {
+        "id": 2,
+        "nomePeca": "Corais",
+        "fotoCapa": "FOTOS\\CNIDARIOS\\2\\acervo (1).jpg",
+        "qtdFotos": 5,
+        "descricao": "Os corais são formados por pólipos, animais que compõem a Classe Anthozoa, do filo Cnidaria. Seu corpo é formado por três partes principais: a boca, rodeada por tentáculos orais urticantes; o corpo cilíndrico, composto pela mesogleia, uma massa gelatinosa responsável por preencher espaços entre a epiderme e a gastroderme dos cnidários; e o esqueleto de calcário, formado principalmente por carbonato de cálcio (87%) secretado pelos pólipos, e cuja função principal é a sustentação do coral. É o esqueleto de calcário, inclusive, que conecta os pólipos, fazendo com que a colônia funcione como um único indivíduo; esse material também é um dos principais formadores da matriz dos recifes junto com algas calcáreas, navios naufragados e rochas, dando origem ao diverso ecossistema recifal. No mundo, existem cerca de 6.000 espécies de corais marinhos. São espécies que vivem em diversas regiões tropicais e subtropicais, com uma importância muito grande para os ecossistemas que abrigam. Pois, além de ser bioindicadores – utilizados para avaliação da qualidade da água – também compõe os recifes de corais que fornecem abrigo e proteção para mais de 65% dos peixes marinhos do planeta. Você sabia que no fundo do mar os corais são os seres vivos de maior valor? Isso por conta da sua biodiversidade, o que leva essas espécies a serem vistos como essenciais para a vida marinha. Pode-se mesmo afirmar que eles têm a mesma importância que as florestas tropicais têm para a flora e a fauna.  Atualmente, são mais de 100 os países em que os cnidários podem ser vistos, principalmente na região ocidental do oceano Pacífico e do Atlântico. Aproximadamente 1/4 das espécies de peixes existentes necessitam dos corais para sobreviver. Por isso, é bom saber como preservá-los, não é mesmo? Branqueamento dos corais: Com a expansão do aquecimento global, um fenômeno negativo vem acontecendo na vida marítima: o branqueamento. Isso ocorre por conta de maus tratos com essas espécies que acontecem há décadas. Por exemplo, serem arrancados brutalmente com tratores e outros tipos de ferramentas de grande porte, com o objetivo de transferir a água até as praias, ou a contante exposição à poluição do mar.",
+        "reino": "Animalia",
+        "subReino": "Eumetazoa",
+        "filo": "Cnidaria",
+        "classe": "Anthozoa"
+      },
+      {
+        "id": 3,
+        "nomePeca": "Gorgônias",
+        "nomeCientifico": "Gorgonia sp.",
+        "fotoCapa": "FOTOS\\CNIDARIOS\\3\\acervo (1).jpg",
+        "qtdFotos": 4,
+        "descricao": "Animal invertebrado pertencente ao filo Cnidário. As anêmonas-do-mar compõe a Classe Anthozoa, que pertence ao filo Cnidaria. Apresenta-se fixa a substrato marinho. Na parte superior apresenta a boca rodeada por tentáculos. Seu corpo pode ser dividido em três partes principais: o disco pedal, estrutura adesiva que facilita a fixação do animal no substrato; corpo cilíndrico, que pode variar entre 2,5 centímetros e 1,5 metros de comprimento; e disco oral, cercado por tentáculos em forma de pétala, que são responsáveis pela captura de alimento. Embora as anêmonas-do-mar sejam organismos sésseis frequentemente observados sobre corais e rochas, estas podem se movimentar lentamente através do deslocamento de seu disco pedal ou por contrações corporais, que se assemelham a pequenos pulos. Parentes das águas-vivas, as anêmonas-do-mar compartilham com estes animais a principal característica do filo Cnidaria: a presença de cnidócitos (ou cnidoblastos), células especializadas na injeção de uma neurotoxina paralisante em suas presas. Os cnidócitos são encontrados nos tentáculos das anêmonas, e têm como características o formato de cápsula e uma estrutura chamada cnidocílio, que atua como um gatilho; quando este é estimulado, o nematocisto é projetado para fora da cápsula e se prende ao corpo da presa, liberando uma substância urticante capaz de paralisar ou matá-la. É através desse aparato que as anêmonas consomem suas presas preferidas como pequenos peixes, camarões ou caranguejos. ",
+        "reino": "Animalia",
+        "subReino": "Eumetazoa",
+        "filo": "Cnidaria",
+        "classe": "Anthozoa",
+        "subClasse": "Octocorallia",
+        "ordem": "Alcyonacea",
+        "familia": "Gorgoniidae",
+        "genero": "Gorgonia",
+        "especie": "sp."
+      },
+      {
+        "id": 4,
+        "nomePeca": "Hydrozoa (pólipos)",
+        "fotoCapa": "FOTOS\\CNIDARIOS\\4\\acervo (1).jpg",
+        "qtdFotos": 2,
+        "descricao": "Os hidrozoários são seres vivos aquáticos pertencentes ao filo dos cnidários. Os hidrozoários podem ser encontrados tanto em água salgada como em doce. São conhecidas cerca de três mil espécies de hidrozoários, sendo que a hidra é uma das mais conhecidas.",
+        "reino": "Animalia",
+        "filo": "Cnidaria",
+        "classe": "Hydrozoa"
+      },
+      {
+        "id": 5,
+        "nomePeca": "Rim-do-mar",
+        "nomeCientifico": "Renilla sp.",
+        "fotoCapa": "FOTOS\\CNIDARIOS\\5\\acervo (1).jpg",
+        "qtdFotos": 4,
+        "descricao": "Animal invertebrado pertencente ao filo Cnidário. As anêmonas-do-mar compõe a Classe Anthozoa, que pertence ao filo Cnidaria. Apresenta-se fixa a substrato marinho. Na parte superior apresenta a boca rodeada por tentáculos. Seu corpo pode ser dividido em três partes principais: o disco pedal, estrutura adesiva que facilita a fixação do animal no substrato; corpo cilíndrico, que pode variar entre 2,5 centímetros e 1,5 metros de comprimento; e disco oral, cercado por tentáculos em forma de pétala, que são responsáveis pela captura de alimento. Embora as anêmonas-do-mar sejam organismos sésseis frequentemente observados sobre corais e rochas, estas podem se movimentar lentamente através do deslocamento de seu disco pedal ou por contrações corporais, que se assemelham a pequenos pulos. Parentes das águas-vivas, as anêmonas-do-mar compartilham com estes animais a principal característica do filo Cnidaria: a presença de cnidócitos (ou cnidoblastos), células especializadas na injeção de uma neurotoxina paralisante em suas presas. Os cnidócitos são encontrados nos tentáculos das anêmonas, e têm como características o formato de cápsula e uma estrutura chamada cnidocílio, que atua como um gatilho; quando este é estimulado, o nematocisto é projetado para fora da cápsula e se prende ao corpo da presa, liberando uma substância urticante capaz de paralisar ou matá-la. É através desse aparato que as anêmonas consomem suas presas preferidas como pequenos peixes, camarões ou caranguejos. ",
+        "reino": "Animalia",
+        "filo": "Cnidaria",
+        "classe": "Anthozoa",
+        "subClasse": "Octocorallia",
+        "ordem": "Pennatulacea",
+        "familia": "Rennilidae",
+        "genero": "Renilla",
+        "especie": "sp."
+      }
     ]
   }
 ]
+
 
 
 
