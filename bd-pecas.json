@@ -6,43 +6,69 @@
     "items": [
       {
         "id": 1,
-        "nomePeca": "Crânio, Asa e Patas de Coruja-buraqueira",
-        "nomeCientifico": "Aedis",
+        "nomePeca": "Asas, Crânio e Patas de Coruja-buraqueira",
+        "nomeCientifico": "Athene cunicularia",
         "fotoCapa": "FOTOS\\AVES\\1\\acervo (4).jpg",
         "qtdFotos": 15,
-        "descricao": "Lorem"
+        "descricao": "Com o nome científico Athene cunicularia (\"pequeno mineiro\"), recebe esse nome por cavar buracos no solo. Possui 22 subespécies. Vive cerca de 9 anos em habitat selvagem. Costuma viver em campos, pastos, restingas, desertos, planícies, praias e aeroportos. Ave de pequeno porte, seu tamanho médio é de 21,5 a 28,5 cm (machos) e de 22 a 25 cm (fêmeas). Pesa entre 110 e 285 g (machos) e entre 150 a 265 g (fêmeas). Possui a cabeça redonda, sem penachos e os olhos estão dispostos lado a lado, num mesmo plano.  A coloração é cor de terra, mimética, podendo apresentar plumagem em tons de ferrugem causados por solos de terra roxa (coloração adventícia). Tem voo suave e silencioso.  É uma predadora de pequeno porte com hábito carnívoro-insetívoro, sendo considerada generalista por consumir as presas mais abundantes de acordo com a estação, tendo preferência por roedores. As ordens de insetos consumidas são: coleópteros (besouros), ortóptera (grilos e gafanhotos), díptera e himenóptera. Os vertebrados consumidos são representados pelos: roedentia, marsupialia, amphibia, répteis squamata, microquiroptero (morcegos verdadeiros). O maior inimigo da coruja buraqueira é o homem, visto que, por ser uma ave de rapina, quase não tem predadores naturais. Entretanto, o danoso trânsito de carros sobre a vegetação da praia é o principal fator da destruição da coruja buraqueira, juntamente com outras espécies da fauna da praia que compõem a cadeia alimentar, pois, ao passarem sobre a boca dos ninhos, esses veículos soterram o túnel, matando mãe e filhotes asfixiados debaixo da camada de areia em que se encontram.",
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "Aves",
+        "ordem": "Strigiformes",
+        "familia": "Strigidae",
+        "genero": "Athene",
+        "especie": "cunicularia"
       },
       {
         "id": 2,
-        "nomePeca": "Carcará",
-        "nomeCientifico": "egipty",
+        "nomePeca": "Carcará (em meio úmido)",
+        "nomeCientifico": "Caracara plancus",
         "fotoCapa": "FOTOS\\AVES\\2\\acervo (1).jpg",
         "qtdFotos": 4,
-        "descricao": "impsum "
+        "descricao": "Também conhecido como caracará, carancho, caracaraí (Ilha do Marajó), gavião-de-queimada e gavião-calçudo. O carcará não é taxonomicamente uma águia, e sim um parente distante dos falcões. É tanto visto sozinho como em bandos numerosos em redor de mamíferos e carcaças. Ocorre em campos abertos, cerrados, borda de matas e inclusive centros urbanos de grandes cidades.  Seu nome científico significa: do (tupy) caracará = onomatopeia indígena para o som emitido por esta ave da família Falconidae; e do (latim) plancus, plangos = águia. ⇒ Águia que emite o som “cará”, “cará”.  Medindo cerca de 50-60 centímetros da cabeça a cauda, o peso do macho é de 834 g; a fêmea pesa 953 g e mede cerca de 123 centímetros de envergadura; o carcará é facilmente reconhecível quando pousado, pelo fato de possuir uma espécie de solidéu preto sobre a cabeça, assim como um bico adunco e alto, que assemelha-se à lâmina de um cutelo; a face é vermelha. É recoberto de preto na parte superior e possui o peito de uma combinação de marrom claro com riscas pretas, de tipo “carijó”; patas compridas e de cor amarela; em voo, assemelha-se a um urubu, mas é reconhecível por duas manchas de cor clara na extremidade das asas. Deve seu nome à vocalização que emite. O peso varia de 786-953 gramas. Não é um predador especializado, e sim um generalista e oportunista, assim como o seu parente próximo, o carrapateiro (Milvago chimachima). Onívoro, alimenta-se de quase tudo o que acha, de animais vivos ou mortos até o lixo produzido pelos humanos, tanto nas áreas rurais quanto urbanas. Adaptou-se à presença humana, comendo restos de comida no lixo das casas ou as vísceras de peixe nos acampamentos de pescadores (Antas, 2005; Sick, 1997). Suas estratégias para obtenção de alimento são variadas: caça lagartos, cobras, sapinhos e caramujos; rouba filhotes de outras aves, até de espécies grandes como garças, colhereiros e tuiuiús (Jabiru mycteria); arranha o solo com os pés em busca de amendoim e feijão; apanha frutos de dendê; ataca filhotes recém-nascidos de cordeiros e outros animais. Também segue tratores que estão arando os campos, em busca de minhocas e larvas ou pequenos vertebrados, como anfíbios Leptodactylus fuscus (Crozariol & Gomes 2009). É muito comum ser avistado ao longo das rodovias para alimentar-se dos animais atropelados. Fica nas proximidades dos ninhais para comer restos de comida caídos no chão, ovos ou filhotes deixados sem a presença dos pais. Chega a reunir-se a outros carcarás para matar uma presa maior. É também uma ave comedora de carniça e é comumente visto voando ou pousado junto a urubus pacificamente, principalmente ao longo de rodovias ou nas proximidades de aterros sanitários e locais de depósito de lixo. Dois hábitos pouco conhecidos são a caça de crustáceos nos manguezais (seja entrando na água para abocanhar os que estão perto, ou percorrendo o  mangue a pé, na maré baixa) e a pirataria (o fato de perseguir gaivotas e águias-pescadoras (Pandion haliaetus), forçando-as a deixar a presa cair, que apanha em voo). Reprodução Constrói um ninho com galhos em bainhas de folhas de palmeiras ou em outras árvores. Usa ninho de outras aves também. A postura do carcará é composta de dois ou três ovos, sendo raro encontrar um quarto ovo. A coloração dos ovos está entre o branco e o castanho avermelhado, podendo variar nas tonalidades existentes entre essas cores. Os ovos possuem manchas vermelhas ou castanhas e medem cerca de 56 a 61 mm de comprimento por 44 a 47 mm de largura. A incubação dura cerca de 28 dias e é feita por ambos os pais. O filhote sai do ninho por volta do terceiro mês de vida, mas continua demandando os cuidados dos pais por mais algum tempo. Segundo (Antas, 2005; Sick, 1997) os pais criam somente um filhote por temporada.",
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "Aves",
+        "ordem": "Falconiformes",
+        "familia": "Falconidae",
+        "subFamilia": "Caracarinae",
+        "genero": "Caracara",
+        "especie": "plancus"
       },
       {
         "id": 3,
         "nomePeca": "Crânio de Bacurau",
-        "nomeCientifico": "egipty",
         "fotoCapa": "FOTOS\\AVES\\3\\acervo (1).jpg",
         "qtdFotos": 4,
-        "descricao": "impsum "
+        "descricao": "Caprimulgidae é uma família de aves da ordem dos caprimulgiformes que inclui as aves conhecidas como bacurau ou curiango no Brasil e noitibó na Europa. São aves noturnas e insetívoras, de asas longas e pernas curtas de pouca utilidade para caminhadas, que durante o dia dormem no chão ou empoleirados. Colocam um ou dois ovos, não em ninhos, mas geralmente no chão ou sobre telhados. Os membros deste grupo estão distribuídos por todo o globo, principalmente nas regiões quentes.",
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "Aves",
+        "ordem": "Anseriformes",
+        "familia": "Anatidae",
+        "subFamilia": "Dendrocygninae",
+        "genero": "Dendrocygna",
+        "especie": "viduata"
       },
       {
         "id": 4,
         "nomePeca": "Crânio de Marreco-irerê",
-        "nomeCientifico": "egipty",
+        "nomeCientifico": "Dendrocygna viduata",
         "fotoCapa": "FOTOS\\AVES\\4\\acervo (1).jpg",
         "qtdFotos": 4,
-        "descricao": "impsum "
+        "descricao": "Provavelmente nosso pato mais bem conhecido, seja pela sua beleza, pelo fato de se aproximar muito das áreas urbanas e pelo seu canto típico. É a sua vocalização que lhe empresta o nome irerê ou paturi, muito agudo e alto, lembrando o barulho de alguns apitos ou o som de brinquedos de borracha fazendo iriririririririririririrririiririrri. Assim como outros marrecos, alimenta-se basicamente de plantas submersas e gramíneas nas margens dos lagos, mas também come invertebrados aquáticos, pequenos peixes e girinos.  O ninho é construído no chão. A fêmea bota de 8 a 14 ovos, sendo que o macho pode ajudar a chocar. Ambos cuidam dos filhotes. É encontrado em quase qualquer corpo d'água ao longo de sua ampla distribuição, que vai da Argentina até a América Central, e curiosamente também ocorre na África Ocidental. Pode ser encontrado até mesmo em lagos poluídos. É mais ativo nos crepúsculos e à noite.",
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "Aves",
+        "ordem": "Pelecaniformes",
+        "familia": "Ardeidae"
       },
       {
         "id": 5,
         "nomePeca": "Crânio de Socó",
-        "nomeCientifico": "catus",
         "fotoCapa": "FOTOS\\AVES\\5\\acervo (1).jpg",
         "qtdFotos": 4,
-        "descricao": "dolor"
+        "descricao": "Vive em áreas úmidas, como brejos, pântanos e veredas e também regiões florestais. Costuma esconder-se na vegetação ribeirinha. Anda como se se esgueirasse, a passos largos, bem como se observasse um perigo ou uma oportunidade.   Alimenta-se de quase tudo que encontra: crustáceos, répteis, anfíbios, peixes e insetos. Captura suas presas andando vagarosamente, em águas rasas ou pântanos no interior da floresta. Oculto na densa vegetação, espreita peixes e outros organismos aquáticos ficando em total imobilidade nas margens. Captura sua presa com seu bico afilado, dardejando-a em golpes certeiros e retendo-a entre a maxila e a mandíbula."
       },
       {
         "id": 6,
@@ -50,11 +76,20 @@
         "nomeCientifico": "catus",
         "fotoCapa": "FOTOS\\AVES\\6\\acervo (1).jpg",
         "qtdFotos": 4,
-        "descricao": "dolor"
+        "descricao": "O João-de-barro (Furnarius rufus) constrói seu ninho em forma de forno, utilizando como material base o barro. A função desse ninho nunca foi determinada, porém, há a hipótese de que a sua função principal é fornecer uma câmara de incubação. A necessidade de manter uma temperatura relativamente constante e elevada para os ovos e os ninhegos pode exigir dos adultos intervalos de tempo extensos sobre o ninho e, portanto, menos tempo para forragear, tornando este trade-off decisivo neste período. Uma adaptação para manter a temperatura do ninho constante, pode proporcionar benefícios importantes para os indivíduos, especialmente em áreas onde os recursos também podem ser limitantes (Shibuya, 2012)."
       }
+    ]
+  },
+  {
+    "categoria": "CNIDÁRIOS",
+    "pastaCategoria": "CNIDARIOS",
+    "descricaoCategoria": "Aqui o texto da caregoria aves",
+    "items:": [
+
     ]
   }
 ]
+
 
 
 
