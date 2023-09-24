@@ -28,5 +28,10 @@
     "categoria": "RÉPTEIS",
     "urlCapaCategoria": "CAPAS/REPTEIS.jpeg",
     "pastaCategoria": "REPTEIS"
+  },
+  {
+    "categoria": "ANFIBIOS",
+    "urlCapaCategoria": "CAPAS/REPTEIS.jpeg",
+    "pastaCategoria": "ANFIBIOS"
   }
 ]
