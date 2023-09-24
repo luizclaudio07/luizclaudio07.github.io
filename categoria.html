@@ -39,7 +39,7 @@
         fetch('https://raw.githubusercontent.com/luizclaudio07/luizclaudio07.github.io/master/bd-pecas.json?v='+Math.floor(Math.random() * 999)) 
         .then(response => response.json())  
         .then(data =>  { 
-
+          debugger;
           pecaJSON = data.find(x => x.pastaCategoria == getCategoriaParam()) ;
 
           if(!pecaJSON){

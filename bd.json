@@ -1,13 +1,18 @@
 [
   {
+    "categoria": "ANFIBIOS",
+    "urlCapaCategoria": "CAPAS/ANFIBIOS.jpeg",
+    "pastaCategoria": "ANFIBIOS"
+  },
+  {
+    "categoria": "ARACNÍDEOS",
+    "urlCapaCategoria": "CAPAS/ARACNIDEOS.jpeg",
+    "pastaCategoria": "ARACNIDEOS"
+  },
+  {
     "categoria": "AVES",
     "urlCapaCategoria": "CAPAS/AVES.jpeg",
     "pastaCategoria": "AVES"
-  },
-  {
-    "categoria": "PEIXES",
-    "urlCapaCategoria": "CAPAS/PEIXES.jpeg",
-    "pastaCategoria": "PEIXES"
   },
   {
     "categoria": "CNIDÁRIOS",
@@ -15,9 +20,19 @@
     "pastaCategoria": "CNIDARIOS"
   },
   {
-    "categoria": "MOLUSCOS",
-    "urlCapaCategoria": "CAPAS/MOLUSCOS.jpeg",
-    "pastaCategoria": "MOLUSCOS"
+    "categoria": "CRUSTÁCEOS",
+    "urlCapaCategoria": "CAPAS/CRUSTACEOS.jpeg",
+    "pastaCategoria": "CRUSTACEOS"
+  },
+  {
+    "categoria": "EQUINODERMOS",
+    "urlCapaCategoria": "CAPAS/EQUINODERMOS.jpeg",
+    "pastaCategoria": "EQUINODERMOS"
+  },
+  {
+    "categoria": "FÓSSIL DE TRILOBITA",
+    "urlCapaCategoria": "CAPAS/TRILOBITA.jpeg",
+    "pastaCategoria": "TRILOBITA"
   },
   {
     "categoria": "INSETOS",
@@ -25,13 +40,38 @@
     "pastaCategoria": "INSETOS"
   },
   {
+    "categoria": "MAMÍFEROS",
+    "urlCapaCategoria": "CAPAS/MAMIFEROS.jpeg",
+    "pastaCategoria": "MAMIFEROS"
+  },
+  {
+    "categoria": "MIRIÁPODES",
+    "urlCapaCategoria": "CAPAS/MIRIAPODES.jpeg",
+    "pastaCategoria": "MIRIAPODES"
+  },
+  {
+    "categoria": "MOLUSCOS",
+    "urlCapaCategoria": "CAPAS/MOLUSCOS.jpeg",
+    "pastaCategoria": "MOLUSCOS"
+  },
+  {
+    "categoria": "NEMATOIDES",
+    "urlCapaCategoria": "CAPAS/NEMATOIDES.jpeg",
+    "pastaCategoria": "NEMATOIDES"
+  },
+  {
+    "categoria": "PEIXES",
+    "urlCapaCategoria": "CAPAS/PEIXES.jpeg",
+    "pastaCategoria": "PEIXES"
+  },
+  {
+    "categoria": "PORÍFEROS",
+    "urlCapaCategoria": "CAPAS/PORIFEROS.jpeg",
+    "pastaCategoria": "PORIFEROS"
+  },
+  {
     "categoria": "RÉPTEIS",
     "urlCapaCategoria": "CAPAS/REPTEIS.jpeg",
     "pastaCategoria": "REPTEIS"
-  },
-  {
-    "categoria": "ANFIBIOS",
-    "urlCapaCategoria": "CAPAS/REPTEIS.jpeg",
-    "pastaCategoria": "ANFIBIOS"
   }
 ]
