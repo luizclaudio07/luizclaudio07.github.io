@@ -39,6 +39,16 @@ div#conteudo div.col-md-3, div#conteudo div.col-md-4, div#conteudoBook div.col-m
 }
 
 
+.badge{
+  font-size:95%;
+}
+
+.btn-voltar{
+  display: block;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
 .carousel-control-prev{
   z-index: 999;
 }
