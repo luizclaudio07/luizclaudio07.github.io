@@ -165,6 +165,7 @@
     "items": [
         {
           "id": 1,
+          "fotoCapa": "FOTOS\\ANFIBIOS\\1\\acervo (1).jpg",
           "nomePeca": "Cecília",
           "nomeCientifico": "Caecilia sp.",
           "descricao": "Cobras-cegas, ou cecílias, são animais que apresentam corpo alongado e cilíndrico. Sua aparência lembra a de uma serpente ou de uma minhoca, entretanto, não se trata de um réptil, tampouco de um anelídeo. As cobras-cegas são exemplos de anfíbios, mais precisamente do grupo Gymnophiona ou Apoda. São encontradas em áreas tropicais, e a maioria das espécies vive em túneis subterrâneos.\nAs cecílias possuem hábitos fossoriais e estão adaptadas para cavar e viver debaixo do solo. Devido a isso, seus olhos são pequenos e cobertos por uma fina camada de pele. Apesar de serem também chamadas de cobras-cegas, as cecílias não são totalmente cegas e conseguem distinguir a ausência e a presença de luz.",
@@ -185,6 +186,7 @@
         },
         {
           "id": 2,
+          "fotoCapa": "FOTOS\\ANFIBIOS\\2\\acervo (1).jpg",
           "nomePeca": "Girinos",
           "nomeCientifico": "",
           "descricao": "A larva dos anfíbios anuros, conhecida como girino, possuem características bem diferentes do adulto: girinos são aquáticos, adultos são terrestres; girinos respiram por brânquias, adultos tem respiração pulmonar. Guardadas as devidas diferenças, são como as borboletas, que mudam completamente seu corpo durante a vida.\nOs girinos vivem em lagos ou pequenas poças de águas, como as bromélias. Em determinados tipos de habitats, os animais desenvolvem características adaptativas em seu corpo, como ventosas, por exemplo, para evitar que sejam arrastados por correntezas.\nO tempo de metamorfose varia em cada grupo, acordo com a espécie. Até o que ciclo se complete e o animal se torne adulto, pode levar até 10 meses desde o nascimento. A maior parte das espécies não permanece junto à prole para alimentação ou cuidados; eles despejam os ovos e seguem com o ciclo reprodutivo. Por isso, muitos girinos não sobrevivem; já que, além da dificuldade de se alimentar, são alvos de caça de outros anfíbios.\nEles possuem 4 fases de desenvolvimento. São elas:\nEmbrião: Fase inicial, que inicia com a fertilização, inclui o desenvolvimento dos primeiros tecidos e órgãos, e finda com o aparecimento do que serão os órgãos respiratórios (brânquias)\n\nFilhote: Fase curta em que ocorre o aumento da cauda e o desenvolvimento de estruturas para a respiração.\n\nGirino: Fase em que os animais apresentam grande movimentação e alimentação. Nesse período, surgem as pernas (já externas ao corpo) e braços (visíveis apenas por transparência do corpo).\n\nMetamorfo: Fase final do desenvolvimento larval. Nesse período os braços rompem a pele do corpo, a boca se desenvolve e a cauda degenera (é absorvida).",
@@ -205,6 +207,7 @@
         },
         {
           "id": 3,
+          "fotoCapa": "FOTOS\\ANFIBIOS\\3\\acervo (1).jpg",
           "nomePeca": "Perereca-dormideira",
           "nomeCientifico": "Boana semilineata",
           "descricao": "Boana semilineata é uma espécie de anfíbio da família Hylidae. Endêmica do Brasil, onde pode ser encontrada na área de Mata Atlântica nos estados de Pernambuco, Alagoas, Sergipe, Bahia, Espírito Santo, Minas Gerais, Rio de Janeiro, São Paulo, Paraná e Santa Catarina. No ano de 2009, foi utilizada em pesquisas para fins de análise de preservação e diversidade genética. \nPossui o comportamento de se empoleirar em galhos e hábitos noturnos.",
@@ -225,6 +228,7 @@
         },
         {
           "id": 4,
+          "fotoCapa": "FOTOS\\ANFIBIOS\\4\\acervo (1).jpg",
           "nomePeca": "Rã-manteiga",
           "nomeCientifico": "",
           "descricao": "especie de anura de tamanho médio e porte robusto, pertencente ao grupo ocellatus (Heyer et al, 1990). A espécie pode ser diagnosticada pela presença de três pares de pregas dorsais distintas e duas pregas indistintas, e por apresentar um padrão dorsal na forma de pequenos ocelos de coloração cor marrom-escuro contrastando com a cor de fundo, que varia em tons de verde ao marrom-claro. L. latrans também possui uma fixa de cor marrom escuro que se inicia na ponta no focinho e se estende a região posterior do tímpano e uma mancha interorbital em formato triangular de cor marrom-escuro. Ausência de membrana interdigital e dilatações digitais. Braço e antebraço extremamente robusto nos machos, e calo nupcial presente (Heyer et al, 1990). \nHabitat e Ecologia: especie de hábito noturno, terrestre e dieta de insectos e pequenos vertebrados, como outros pequeno anfíbios. Utiliza poça permanente e temporária, naturail ou artificial. Vocaliza durante praticamente todo o período chuvoso, próximo as poças e deposita ovos em ninhos de espuma entre a vegetação próxima as margens. É comum o cuidado parental dos ovos.  A espécie é comumente encontrada em áreas de pastos e os girinos utilizando açudes. Portanto constitui uma espécie tolerante às modificações no habitat (Heyer et al, 1990; Eterovick e Sazima, 2004; Maffei et al, 2011).  \nDistribuição: A táxon possui ampla distribuição, podendo ocorrer em grande parte da América do Sul à leste dos Andes, incluindo Colômbia, Venezuela, Guianas, Bolívia Paraguai, Argentina e Brasil (Frost, 2014). No Goiás existem vários registros em quase toda parte do território.\nAmeaças: especie não ameaçada. Entretanto, a caça pode constituir uma potencial ameaça.",
@@ -245,6 +249,7 @@
         },
         {
           "id": 5,
+          "fotoCapa": "FOTOS\\ANFIBIOS\\5\\acervo (1).jpg",
           "nomePeca": "Sapo-cururu",
           "nomeCientifico": "Rhinella sp.",
           "descricao": "É um animal fértil devido ao grande número de ovos postos pelas fêmeas. Seu sucesso reprodutivo deve-se também, em parte, à variedade de alimentos que podem constituir a sua dieta, incomum entre os anuros, e que tanto inclui materiais vivos como mortos. Em geral, os adultos atingem de 10 a 15 centímetros de comprimento. O maior exemplar da espécie de que se tem notícia media 38 centímetros do focinho à cloaca e pesava 2,65 quilogramas.\nO sapo-cururu possui grandes glândulas de veneno. Tanto os adultos como os girinos são altamente tóxicos quando ingeridos. Por causa do apetite voraz, foi introduzido em várias regiões do Oceano Pacífico e dos arquipélagos caribenhos como método de controle biológico de pragas, nomeadamente na Austrália, em 1935. Em inglês é conhecido como Cane Toad e, em espanhol, como Sapo de Caña (\"sapo-da-cana\" em ambas as línguas) por ter sido comumente usado no controle de pragas da cana-de-açúcar. Atualmente, é considerado uma praga em muitas das regiões onde foi introduzido, pois sua pele tóxica mata muitos predadores nativos quando ingerido, além de afetar animais domésticos e de estimação que os comem.\nAinda no Brasil há uma canção de ninar que fala deste animal e é bastante difundida em todo o país, estando presente em muitas obras infantis.[42] Uma das variantes dessa canção (domínio público) diz:\n\"Sapo-cururu,\nda beira do rio\nquando o sapo canta, menina\né porque tem frio.",
