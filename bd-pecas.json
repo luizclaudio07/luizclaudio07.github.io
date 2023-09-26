@@ -272,17 +272,17 @@
   },
   {
     "categoria": "ARACNÍDEOS",
-    "pastaCategoria": "ARACNÍDEOS",
-    "descricaoCategoria": "Aqui o texto da caregoria ARACNÍDEOS",
+    "pastaCategoria": "ARACNIDEOS",
+    "descricaoCategoria": "Aqui o texto da caregoria ARACNIDEOS",
     "items": [
       {
         "id": 1,
-        "fotoCapa": "FOTOS\\ARACNÍDEOS\\1\\acervo (1).jpg",
+        "fotoCapa": "FOTOS\\ARACNIDEOS\\1\\acervo (1).jpg",
         "nomePeca": "Aranha-caranguejeira",
         "descricao": "Aranha-caranguejeira é o nome popular utilizado para se referir a aranhas grandes e repletas de cerdas urticantes. São animais muitas vezes inofensivos e que apresentam um veneno que, geralmente, não provoca acidentes graves, porém, podem provocar alergias graves se as cerdas que recobrem o seu corpo atingirem as nossas vias respiratórias.<br>
         Existem mais de 900 espécies diferentes de caranguejeiras, as quais variam, por exemplo, em suas características físicas. As espécies mais conhecidas de caranguejeira apresentam corpo marrom ou preto, entretanto há até mesmo espécies azuis. As caranguejeiras costumam ficar em suas tocas durante o dia, saindo à noite em busca de seu alimento.<br>
         As aranhas-caranguejeiras são animais mais ativos durante o período noturno, quando saem para caçar as suas presas. São chamadas de animais forrageadores, uma vez que não ficam esperando suas presas em teias, comportamento observado em diferentes espécies de aranhas.<br>
-        Se alimentam de outros animais e, por serem aranhas relativamente grandes, podem se alimentar de presas incomuns para um aracnídeo. Algumas aranhas-caranguejeiras podem se alimentar, por exemplo, de pequenos pássaros, roedores, lagartos, sapos e outras aranhas.",
+        Se alimentam de outros animais e, por serem aranhas relativamente grandes, podem se alimentar de presas incomuns para um ARACNIDEO. Algumas aranhas-caranguejeiras podem se alimentar, por exemplo, de pequenos pássaros, roedores, lagartos, sapos e outras aranhas.",
         "reino": "Animalia",
         "filo": "Arthropoda",
         "classe": "Arachnida",
@@ -292,14 +292,14 @@
       },
       {
         "id": 2,
-        "fotoCapa": "FOTOS\\ARACNÍDEOS\\2\\acervo (1).jpg",
+        "fotoCapa": "FOTOS\\ARACNIDEOS\\2\\acervo (1).jpg",
         "nomePeca": "Diversos",
         "descricao": "O que são as aranhas? Ao contrário do que muita gente pensa, aranhas não são insetos. Embora tenham similaridades, as aranhas distinguem-se dos insetos pelas seguintes características:<br>
          - Possuem quatro pares de pernas (os insetos, três pares);<br>
          - Não possuem asas ou antenas;<br>
          - Seu corpo divide-se em duas partes (os insetos, em três);<br>
          -A maioria produz uma seda com a qual constroem suas casas e armadilhas para capturar alimentos: a teia.<br>
-          Foi do vocábulo grego aráchneque que surgiu a palavra “aranha” e o termo “aracnídeo”, que designa a classe biológica à qual pertencem esses tão mal afamados seres. Assim, aranhas são artrópodes da Superclasse Chelicerata (Quelicerados, isto é, dotado de quelíceras – apêndices usados para agarrar e prender as presas), Classe dos Aracnídeos (juntamente com os ácaros e os escorpiões, ambos em subclasses biológicas diferentes).
+          Foi do vocábulo grego aráchneque que surgiu a palavra “aranha” e o termo “ARACNIDEO”, que designa a classe biológica à qual pertencem esses tão mal afamados seres. Assim, aranhas são artrópodes da Superclasse Chelicerata (Quelicerados, isto é, dotado de quelíceras – apêndices usados para agarrar e prender as presas), Classe dos ARACNIDEOs (juntamente com os ácaros e os escorpiões, ambos em subclasses biológicas diferentes).
           As aranhas formam um grupo extremamente diverso e interessantíssimo.
           Com mais de 40.600 espécies conhecidas, distribuídas em mais de 100 famílias, as aranhas constituem-se num vasto campo de
           estudo e diversão. Falamos de um universo que vai de uma pequenina microaranha (Microphantinae sp) a uma caranguejeira-gigante (Theraphosidae sp) de 30 cm... ou seja, a diversidade é absurdamente imensa!
