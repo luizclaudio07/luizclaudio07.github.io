@@ -159,7 +159,7 @@
     ]
   },
   {
-    "categoria": "ANFIBIOS",
+    "categoria": "ANFÍBIOS",
     "pastaCategoria": "ANFIBIOS",
     "descricaoCategoria": "Aqui o texto da caregoria ANFÍBIOS",
     "items": [
@@ -296,8 +296,34 @@
         "filo": "Arthropoda",
         "classe": "Arachnida",
         "ordem": "Araneae",
-        "familia": "Theraphosidae",
+        "qtdFotos": 22
+      },
+      {
+        "id": 3,
+        "fotoCapa": "FOTOS\\ARACNIDEOS\\3\\acervo (1).jpg",
+        "nomePeca": "Escorpião-amarelo",
+        "nomeCientifico": "Tityus serrulatus",
+        "descricao": "O Tityus serrulatus, conhecido popularmente como escorpiãoamarelo, é um escorpião típico do Sudeste, Centro-Oeste e Nordeste do Brasil; é a principal espécie que causa acidentes graves, com registro de óbitos, principalmente em crianças. Possui as pernas e a cauda amarelo-claro e o tronco escuro. A denominação da especie é devida à presença de uma serrilha nos 3° e 4° anéis da cauda. Mede até 7 cm de comprimento. Se reproduz por partenogênese (sem a necessidade de machos), na qual cada mãe tem aproximadamente dois partos com, em média, 20 filhotes cada, por ano, chegando a 160 filhotes durante a vida. Devido aos hábitos domiciliares e à periculosidade da picada é responsável pela maioria dos acidentes escorpiônicos verificados no Brasil em região urbana, devido ainda à grande expansão de distribuição nos últimos 25 anos.",
+        "reino": "Animalia",
+        "filo": "Arthropoda",
+        "classe": "Arachnida",
+        "ordem": "Scorpiones",
+        "familia": "Buthidae",
+        "genero": "Tityus",
+        "especie": "serrulatus",
         "qtdFotos": 6
+      },
+      {
+        "id": 4,
+        "fotoCapa": "FOTOS\\ARACNIDEOS\\4\\acervo (1).jpg",
+        "nomePeca": "Opilião",
+        "descricao": "Os opiliões podem ser identificados pela morfologia externa, considerando os caracteres morfológicos utilizados como diagnósticos para as famílias, gêneros e finalmente, para espécies. Para chegar até famílias e gêneros, tais caracteres vão desde forma do escudo dorsal e apêndices, ornamentos no corpo e pernas, cor, no entanto, para chegar até espécie, muitas vezes é necessário ir além disso e examinar a morfologia genital, especificamente dos machos, já que ali se encontram os caracteres que separam adequadamente uma espécie de outra.  Assim como outros aracnídeos, os opiliões são principalmente predadores, porém, muitas espécies podem se alimentar de restos de outros animais mortos, de fungos e até mesmo de vegetais, frutas e algas, podendo ser chamados de onívoros. Estão entre as principais presas dos opiliões predadores outros artrópodes de tamanho similar, como as baratas, cupins e outros insetos. Porém, espécies de porte maior, como aquelas do gênero Phareicranaus Roewer, 1913, podem inclusive capturar pequenos girinos, sapos e outros vertebrados menores. Os opiliões estão distribuídos em quase todos os ambientes terrestres em todo o mundo, com exceção dos polos. Na Amazônia eles são encontrados no solo, e até no dossel. Ocupam diversos habitats em são facilmente encontrados na serapilheira, sobre os troncos caídos, as vezes embaixo dos mesmos, nas cascas de árvores vivas, nas raízes das árvores, na vegetação baixa e em palmeiras, na liteira suspensa e em macrófitas flutuantes nas áreas alagadas. Algo muito importante a ser lembrado é que os opiliões são sensíveis a desidratação, por este motivo sempre procuram micro habitats úmidos como abrigo.",
+        "reino": "Animalia",
+        "filo": "Arthropoda",
+        "subFilo": "Chelicerata",
+        "classe": "Arachnida",
+        "ordem": "Opiliones",
+        "qtdFotos": 2
       }
     ]
   }

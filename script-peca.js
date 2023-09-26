@@ -34,8 +34,9 @@ function carregaJSON(){
   fetch('https://raw.githubusercontent.com/luizclaudio07/luizclaudio07.github.io/master/bd-pecas.json?v='+Math.floor(Math.random() * 999)) 
   .then(response => response.json())  
   .then(data =>  { 
+    debugger
 
-    listaPecas = data.find(x => x.categoria == getParam('categoria'));
+    listaPecas = data.find(x => x.pastaCategoria == getParam('categoria'));
 
     if(!listaPecas){
       window.location.href = 'index.html'
