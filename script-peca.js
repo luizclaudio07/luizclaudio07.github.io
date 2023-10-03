@@ -174,11 +174,7 @@ function updateLightboxImage() {
 window.onload = function(){
   carregaJSON();
   
-  let btnWhatsapp = document.getElementById('btnWhatsapp').setAttribute('href', 'https://api.whatsapp.com/send?text='+ window.location.href);
-
-  
-  
-  
+  document.getElementById('btnWhatsapp').setAttribute('href', 'https://api.whatsapp.com/send?text='+ window.location.href);
 }
 
 
