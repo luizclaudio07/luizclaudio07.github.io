@@ -169,10 +169,17 @@ function updateLightboxImage() {
   lightboxImg.setAttribute('src', imageSrc);
 }
 
+
+
 window.onload = function(){
   carregaJSON();
+  
+  let btnWhatsapp = document.getElementById('btnWhatsapp').setAttribute('href', 'https://api.whatsapp.com/send?text='+ window.location.href);
+
   
   
   
 }
+
+
 
