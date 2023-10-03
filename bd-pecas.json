@@ -459,5 +459,24 @@
         "qtdFotos": 4
       }
     ]
+  },
+  {
+    "categoria": "FÓSSIL DE TRILOBITA",
+    "pastaCategoria": "TRILOBITA",
+    "descricaoCategoria": "Tri tri",
+    "items": [
+      {
+        "id": 1,
+        "fotoCapa": "FOTOS\\TRILOBITA\\1\\acervo (1).jpg",
+        "nomePeca": "Fóssil de trilobita",
+        "descricao": "Artrópode pré-histórico da Era Paleonzóica, conhecido apenas do registro fóssil. O nome trilobita é devido a presença de três lobos que podem ser visualizados (na maior parte dos casos) em sua região dorsal (um central e dois laterais). Animais marinhos bentônicos, viviam, em sua maioria, em zonas pouco profundas, perto da costa. O maior trilobita encontrado até hoje possuía cerca de um metro de comprimento.", 
+        "reino": "Animalia",
+        "filo": "Arthropoda",
+        "subFilo": "Echinozoa",
+        "classe": "Trilobite",
+        "subClasse": "Trilobitomorpha",
+        "qtdFotos": 1
+      }
+    ]
   }
 ]
