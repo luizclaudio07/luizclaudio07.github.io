@@ -72,7 +72,7 @@ function carregaJSON(){
 
     var areaInfo = document.getElementById('areaInfo');
 
-    areaInfo.innerHTML = areaInfo.innerHTML.replace('[NOMEPECA]', pecaJSON.nomePeca).replace('[NOMECIENTIFICO]', pecaJSON.nomeCientifico).replace('[DESCRICAO]', pecaJSON.descricao)
+    areaInfo.innerHTML = areaInfo.innerHTML.replace('[NOMEPECA]', pecaJSON.nomePeca).replace('[NOMECIENTIFICO]', (!pecaJSON.nomeCientifico || pecaJSON.nomeCientifico == '' ? '' : pecaJSON.nomeCientifico)).replace('[DESCRICAO]', pecaJSON.descricao)
 
     imagesList = document.querySelectorAll('.gallery-item');
     imagesList.forEach((image, index) => {
@@ -173,8 +173,10 @@ function updateLightboxImage() {
 
 window.onload = function(){
   carregaJSON();
+
   
-  document.getElementById('btnWhatsapp').setAttribute('href', 'https://api.whatsapp.com/send?text='+ window.location.href);
+  console.log(window.location.href)
+  document.getElementById('btnWhatsapp').setAttribute('href', 'https://api.whatsapp.com/send?text='+ encodeURIComponent('Ei, olha esse bicho! '+window.location.href));
 }
 
 
